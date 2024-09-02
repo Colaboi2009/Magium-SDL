@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.Magium.Magium.app-merged_res-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.Magium.Magium.app-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.Magium.Magium.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.Magium.Magium.app-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-6:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-6:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.Magium.Magium.app-merged_res-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.Magium.Magium.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-6:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.Magium.Magium.app-merged_res-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.Magium.Magium.app-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-6:\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

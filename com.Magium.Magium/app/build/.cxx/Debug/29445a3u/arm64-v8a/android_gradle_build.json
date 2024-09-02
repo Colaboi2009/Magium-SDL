@@ -1,0 +1,105 @@
+{
+  "buildFiles": [
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d1",
+      "NDK_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj",
+      "NDK_LIBS_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/lib",
+      "APP_PLATFORM\u003dandroid-19",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d1",
+    "NDK_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj",
+    "NDK_LIBS_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/lib",
+    "APP_PLATFORM\u003dandroid-19",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "main-debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj",
+        "NDK_LIBS_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/lib",
+        "APP_PLATFORM\u003dandroid-19",
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj/local/arm64-v8a/libmain.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "main",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u\\obj\\local\\arm64-v8a\\libmain.so"
+    },
+    "SDL3-debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj",
+        "NDK_LIBS_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/lib",
+        "APP_PLATFORM\u003dandroid-19",
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj/local/arm64-v8a/libSDL3.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL3",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u\\obj\\local\\arm64-v8a\\libSDL3.so"
+    },
+    "cpufeatures-debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "NDK_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj",
+        "NDK_LIBS_OUT\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/lib",
+        "APP_PLATFORM\u003dandroid-19",
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u/obj/local/arm64-v8a/libcpufeatures.a"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "cpufeatures",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\29445a3u\\obj\\local\\arm64-v8a\\libcpufeatures.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,3 @@
+Android NDK: WARNING:C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/jni/SDL_image/Android.mk:SDL3_image_static: LOCAL_LDFLAGS is always ignored for static libraries    
+[arm64-v8a] Compile++      : main <= main.cpp
+[arm64-v8a] SharedLibrary  : libmain.so

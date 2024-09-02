@@ -1,0 +1,2 @@
+C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\jni\Android.mk
+C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\jni\Application.mk

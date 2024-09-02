@@ -1,0 +1,115 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.Magium.Magium.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "43",
+                        "endOffsets": "56"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endColumns": "43",
+                        "endOffsets": "238"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "243",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "333"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-4:\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endColumns": "41",
+                        "endOffsets": "236"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "95",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "241",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "331"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                }
+            ]
+        }
+    ]
+}

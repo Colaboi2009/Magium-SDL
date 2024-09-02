@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:5:1-106:12
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:5:1-106:12
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:5:1-106:12
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:5:1-106:12
+	package
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:5:11-69
+	android:versionCode
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:8:5-35
+uses-feature#0x00020000
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:11:5-54
+	android:glEsVersion
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:11:19-51
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:15:9-52
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:20:9-50
+uses-feature#android.hardware.gamepad
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:23:9-48
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:26:9-49
+uses-feature#android.hardware.type.pc
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:31:9-48
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:56:5-66
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:56:22-63
+application
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:69:5-104:19
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:69:5-104:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:69:18-50
+	android:hardwareAccelerated
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:73:9-43
+	android:icon
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:70:9-43
+	android:allowBackup
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:71:9-35
+	android:theme
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:72:9-40
+activity#com.Magium.Magium.MagiumActivity
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:79:9-103:20
+	android:label
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:80:13-45
+	android:launchMode
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:82:13-48
+	android:exported
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:85:13-36
+	android:configChanges
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:83:13-156
+	android:alwaysRetainTaskState
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:81:13-49
+	android:preferMinimalPostProcessing
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:84:13-55
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:79:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:87:13-90:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:88:17-69
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:88:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:89:17-77
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:89:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:92:13-94:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:93:17-90
+	android:name
+		ADDED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml:93:25-87
+uses-sdk
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\src\main\AndroidManifest.xml

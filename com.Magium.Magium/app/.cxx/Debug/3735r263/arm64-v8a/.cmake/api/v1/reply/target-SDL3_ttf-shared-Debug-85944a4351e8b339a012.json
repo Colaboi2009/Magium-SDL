@@ -1,0 +1,258 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a/libSDL3_ttf.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_options",
+			"sdl_target_link_options_no_undefined",
+			"sdl_target_link_option_version_file",
+			"target_link_libraries",
+			"target_compile_options",
+			"sdl_add_warning_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"SDL_ttf/CMakeLists.txt",
+			"SDL_ttf/cmake/PrivateSdlFunctions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 282,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 304,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "BUILD_SDL"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDL_BUILD_MAJOR_VERSION=3"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDL_BUILD_MICRO_VERSION=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SDL_BUILD_MINOR_VERSION=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/jni/SDL_ttf/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/jni/SDL/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/jni/SDL_ttf/external/freetype/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "SDL3-shared::@e7c329919722962a2ad4"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "freetype::@8a7c27c9ba2264f03a1b"
+		}
+	],
+	"id" : "SDL3_ttf-shared::@b80ba31c6455629d7a9d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--version-script=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/jni/SDL_ttf/src/SDL_ttf.sym",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\3735r263\\obj\\arm64-v8a\\libSDL3.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "SDL_ttf\\external\\freetype\\libfreetyped.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "SDL3_ttf-shared",
+	"nameOnDisk" : "libSDL3_ttf.so",
+	"paths" : 
+	{
+		"build" : "SDL_ttf",
+		"source" : "SDL_ttf"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SDL_ttf/src/SDL_ttf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

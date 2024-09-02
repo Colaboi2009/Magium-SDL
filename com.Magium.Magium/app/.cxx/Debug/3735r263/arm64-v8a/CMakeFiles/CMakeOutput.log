@@ -1,0 +1,4623 @@
+The target system is: Android - 1 - aarch64
+The host system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=aarch64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;
+Id flags: -c;--target=aarch64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_84fc5 && [1/2] Building C object CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_84fc5.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o -x c C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_84fc5
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_84fc5 C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_84fc5 && [1/2] Building C object CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_84fc5.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o -x c C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_84fc5]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_84fc5 C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_84fc5] ==> ignore
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> obj [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_84fc5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> obj [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  remove lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  implicit dirs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_630fd && [1/2] Building CXX object CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_630fd.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_630fd
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_630fd C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_630fd && [1/2] Building CXX object CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_630fd.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_630fd]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_630fd C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_630fd] ==> ignore
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> obj [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LC:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_630fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> obj [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  remove lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  implicit dirs: [C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d900c && [1/2] Building C object CMakeFiles/cmTC_d900c.dir/src.c.o
+[2/2] Linking C executable cmTC_d900c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WUNDEF succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a2bc3 && [1/2] Building C object CMakeFiles/cmTC_a2bc3.dir/src.c.o
+[2/2] Linking C executable cmTC_a2bc3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WFLOAT_CONVERSION succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d36e4 && [1/2] Building C object CMakeFiles/cmTC_d36e4.dir/src.c.o
+[2/2] Linking C executable cmTC_d36e4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_93e84 && [1/2] Building C object CMakeFiles/cmTC_93e84.dir/src.c.o
+[2/2] Linking C executable cmTC_93e84
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5aaca && [1/2] Building C object CMakeFiles/cmTC_5aaca.dir/src.c.o
+[2/2] Linking C executable cmTC_5aaca
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_275d3 && [1/2] Building C object CMakeFiles/cmTC_275d3.dir/src.c.o
+[2/2] Linking C executable cmTC_275d3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0657f && [1/2] Building C object CMakeFiles/cmTC_0657f.dir/src.c.o
+[2/2] Linking C executable cmTC_0657f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0be49 && [1/2] Building C object CMakeFiles/cmTC_0be49.dir/src.c.o
+[2/2] Linking C executable cmTC_0be49
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5de20 && [1/2] Building C object CMakeFiles/cmTC_5de20.dir/src.c.o
+[2/2] Linking C executable cmTC_5de20
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WIMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3b21b && [1/2] Building C object CMakeFiles/cmTC_3b21b.dir/src.c.o
+[2/2] Linking C executable cmTC_3b21b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FCOLOR_DIAGNOSTICS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_01be1 && [1/2] Building C object CMakeFiles/cmTC_01be1.dir/src.c.o
+[2/2] Linking C executable cmTC_01be1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LINKER_SUPPORTS_VERSION_SCRIPT succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_963ff && [1/2] Building C object CMakeFiles/cmTC_963ff.dir/src.c.o
+[2/2] Linking C executable cmTC_963ff
+
+
+Source file was:
+int func(void) {return 0;} int main(int argc,char*argv[]){(void)argc;(void)argv;return func();}
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_GCC_ATOMICS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_97cbd && [1/2] Building C object CMakeFiles/cmTC_97cbd.dir/src.c.o
+[2/2] Linking C executable cmTC_97cbd
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1d2a4 && [1/2] Building C object CMakeFiles/cmTC_1d2a4.dir/src.c.o
+[2/2] Linking C executable cmTC_1d2a4
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      __attribute__((visibility("default"))) int foo(void);
+      __attribute__((visibility("hidden")))  int bar(void);
+      int foo(void) { return 0; }
+      int bar(void) { return 1; }
+      int main(void) { return 0; }
+Performing C SOURCE FILE Test LINKER_SUPPORTS_WL_NO_UNDEFINED succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2e2fc && [1/2] Building C object CMakeFiles/cmTC_2e2fc.dir/src.c.o
+[2/2] Linking C executable cmTC_2e2fc
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_ARMNEON succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_efaee && [1/2] Building C object CMakeFiles/cmTC_efaee.dir/src.c.o
+[2/2] Linking C executable cmTC_efaee
+
+
+Source file was:
+
+        #include <arm_neon.h>
+        void floats_add(float *dest, float *a, float *b, unsigned size) {
+          for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+            vst1q_f32(dest, vaddq_f32(vld1q_f32(a), vld1q_f32(b)));
+          }
+        }
+        int main(int argc, char *argv[]) {
+          floats_add((float*)0, (float*)0, (float*)0, 0);
+          return 0;
+         }
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_688a5 && [1/2] Building C object CMakeFiles/cmTC_688a5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_688a5
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9279f && [1/2] Building C object CMakeFiles/cmTC_9279f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9279f
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2a754 && [1/2] Building C object CMakeFiles/cmTC_2a754.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2a754
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_012a7 && [1/2] Building C object CMakeFiles/cmTC_012a7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_012a7
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3e087 && [1/2] Building C object CMakeFiles/cmTC_3e087.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3e087
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_7ddf4 && [1/2] Building C object CMakeFiles/cmTC_7ddf4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7ddf4
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a65ca && [1/2] Building C object CMakeFiles/cmTC_a65ca.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a65ca
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f6c80 && [1/2] Building C object CMakeFiles/cmTC_f6c80.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f6c80
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_58fff && [1/2] Building C object CMakeFiles/cmTC_58fff.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_58fff
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_feaa7 && [1/2] Building C object CMakeFiles/cmTC_feaa7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_feaa7
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_79331 && [1/2] Building C object CMakeFiles/cmTC_79331.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_79331
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bcbab && [1/2] Building C object CMakeFiles/cmTC_bcbab.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bcbab
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_cc05f && [1/2] Building C object CMakeFiles/cmTC_cc05f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cc05f
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c5989 && [1/2] Building C object CMakeFiles/cmTC_c5989.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c5989
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9bf19 && [1/2] Building C object CMakeFiles/cmTC_9bf19.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9bf19
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_28193 && [1/2] Building C object CMakeFiles/cmTC_28193.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_28193
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bb100 && [1/2] Building C object CMakeFiles/cmTC_bb100.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bb100
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_fcc28 && [1/2] Building C object CMakeFiles/cmTC_fcc28.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fcc28
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_39b8d && [1/2] Building C object CMakeFiles/cmTC_39b8d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_39b8d
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_374f8 && [1/2] Building C object CMakeFiles/cmTC_374f8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_374f8
+
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f4f34 && [1/2] Building C object CMakeFiles/cmTC_f4f34.dir/CheckFunctionExists.c.o
+C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+C:/Users/alaam/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f4f34
+
+
+
+Determining if the abs exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c9779 && [1/2] Building C object CMakeFiles/cmTC_c9779.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c9779
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acos exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_336d0 && [1/2] Building C object CMakeFiles/cmTC_336d0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_336d0
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acosf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1bbef && [1/2] Building C object CMakeFiles/cmTC_1bbef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1bbef
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asin exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_37e14 && [1/2] Building C object CMakeFiles/cmTC_37e14.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_37e14
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asinf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a5918 && [1/2] Building C object CMakeFiles/cmTC_a5918.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a5918
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_fcc0e && [1/2] Building C object CMakeFiles/cmTC_fcc0e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fcc0e
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2 exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3d4c6 && [1/2] Building C object CMakeFiles/cmTC_3d4c6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3d4c6
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2f exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_abdd1 && [1/2] Building C object CMakeFiles/cmTC_abdd1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_abdd1
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atanf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_83e28 && [1/2] Building C object CMakeFiles/cmTC_83e28.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_83e28
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atof exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_36191 && [1/2] Building C object CMakeFiles/cmTC_36191.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_36191
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atoi exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ca1b6 && [1/2] Building C object CMakeFiles/cmTC_ca1b6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ca1b6
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6965b && [1/2] Building C object CMakeFiles/cmTC_6965b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6965b
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the calloc exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_86a8a && [1/2] Building C object CMakeFiles/cmTC_86a8a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_86a8a
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceil exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0a32c && [1/2] Building C object CMakeFiles/cmTC_0a32c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0a32c
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceilf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a5fe3 && [1/2] Building C object CMakeFiles/cmTC_a5fe3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a5fe3
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysign exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5e641 && [1/2] Building C object CMakeFiles/cmTC_5e641.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5e641
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysignf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_770f4 && [1/2] Building C object CMakeFiles/cmTC_770f4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_770f4
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cos exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_74bd8 && [1/2] Building C object CMakeFiles/cmTC_74bd8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74bd8
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cosf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f6f68 && [1/2] Building C object CMakeFiles/cmTC_f6f68.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f6f68
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Exit exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_47679 && [1/2] Building C object CMakeFiles/cmTC_47679.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_47679
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6a833 && [1/2] Building C object CMakeFiles/cmTC_6a833.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a833
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the expf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f8bcb && [1/2] Building C object CMakeFiles/cmTC_f8bcb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f8bcb
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabs exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1fbba && [1/2] Building C object CMakeFiles/cmTC_1fbba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1fbba
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabsf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_8d305 && [1/2] Building C object CMakeFiles/cmTC_8d305.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8d305
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floor exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f3e71 && [1/2] Building C object CMakeFiles/cmTC_f3e71.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f3e71
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floorf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bd634 && [1/2] Building C object CMakeFiles/cmTC_bd634.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bd634
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmod exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6bdd4 && [1/2] Building C object CMakeFiles/cmTC_6bdd4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6bdd4
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmodf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_707b5 && [1/2] Building C object CMakeFiles/cmTC_707b5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_707b5
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the free exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3697f && [1/2] Building C object CMakeFiles/cmTC_3697f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3697f
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_aca96 && [1/2] Building C object CMakeFiles/cmTC_aca96.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aca96
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getenv exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c8b1c && [1/2] Building C object CMakeFiles/cmTC_c8b1c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c8b1c
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c4316 && [1/2] Building C object CMakeFiles/cmTC_c4316.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c4316
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10 exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_e35ad && [1/2] Building C object CMakeFiles/cmTC_e35ad.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e35ad
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10f exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_52ba9 && [1/2] Building C object CMakeFiles/cmTC_52ba9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_52ba9
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the logf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5c775 && [1/2] Building C object CMakeFiles/cmTC_5c775.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5c775
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lround exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_04a54 && [1/2] Building C object CMakeFiles/cmTC_04a54.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_04a54
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lroundf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_396fd && [1/2] Building C object CMakeFiles/cmTC_396fd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_396fd
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_19b32 && [1/2] Building C object CMakeFiles/cmTC_19b32.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_19b32
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_31a51 && [1/2] Building C object CMakeFiles/cmTC_31a51.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_31a51
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b94fe && [1/2] Building C object CMakeFiles/cmTC_b94fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b94fe
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_568a1 && [1/2] Building C object CMakeFiles/cmTC_568a1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_568a1
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memset exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a0b15 && [1/2] Building C object CMakeFiles/cmTC_a0b15.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a0b15
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the modf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_da2c0 && [1/2] Building C object CMakeFiles/cmTC_da2c0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_da2c0
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modf
+  return ((int*)(&modf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the modff exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ec155 && [1/2] Building C object CMakeFiles/cmTC_ec155.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ec155
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modff
+  return ((int*)(&modff))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pow exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f4459 && [1/2] Building C object CMakeFiles/cmTC_f4459.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f4459
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the powf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_90a9a && [1/2] Building C object CMakeFiles/cmTC_90a9a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_90a9a
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putenv exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_92ed6 && [1/2] Building C object CMakeFiles/cmTC_92ed6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_92ed6
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3f0c5 && [1/2] Building C object CMakeFiles/cmTC_3f0c5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3f0c5
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_351da && [1/2] Building C object CMakeFiles/cmTC_351da.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_351da
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the roundf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_89890 && [1/2] Building C object CMakeFiles/cmTC_89890.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_89890
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbn exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ce0bb && [1/2] Building C object CMakeFiles/cmTC_ce0bb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ce0bb
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbnf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_633d2 && [1/2] Building C object CMakeFiles/cmTC_633d2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_633d2
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_40150 && [1/2] Building C object CMakeFiles/cmTC_40150.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_40150
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sin exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_dd9ea && [1/2] Building C object CMakeFiles/cmTC_dd9ea.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dd9ea
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sinf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a41cb && [1/2] Building C object CMakeFiles/cmTC_a41cb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a41cb
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrt exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9b81d && [1/2] Building C object CMakeFiles/cmTC_9b81d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9b81d
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrtf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d5113 && [1/2] Building C object CMakeFiles/cmTC_d5113.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d5113
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sscanf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_07752 && [1/2] Building C object CMakeFiles/cmTC_07752.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_07752
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strchr exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_200fd && [1/2] Building C object CMakeFiles/cmTC_200fd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_200fd
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_24fa3 && [1/2] Building C object CMakeFiles/cmTC_24fa3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_24fa3
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d0935 && [1/2] Building C object CMakeFiles/cmTC_d0935.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d0935
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_82860 && [1/2] Building C object CMakeFiles/cmTC_82860.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_82860
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlen exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2208a && [1/2] Building C object CMakeFiles/cmTC_2208a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2208a
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_23bd3 && [1/2] Building C object CMakeFiles/cmTC_23bd3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_23bd3
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bf053 && [1/2] Building C object CMakeFiles/cmTC_bf053.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bf053
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strrchr exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_7431b && [1/2] Building C object CMakeFiles/cmTC_7431b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7431b
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strstr exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b9c0d && [1/2] Building C object CMakeFiles/cmTC_b9c0d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b9c0d
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtod exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_fbf16 && [1/2] Building C object CMakeFiles/cmTC_fbf16.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fbf16
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_00e92 && [1/2] Building C object CMakeFiles/cmTC_00e92.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_00e92
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtol exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3c5ba && [1/2] Building C object CMakeFiles/cmTC_3c5ba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3c5ba
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_648cb && [1/2] Building C object CMakeFiles/cmTC_648cb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_648cb
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoul exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5da09 && [1/2] Building C object CMakeFiles/cmTC_5da09.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5da09
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_93859 && [1/2] Building C object CMakeFiles/cmTC_93859.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_93859
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tan exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_191c6 && [1/2] Building C object CMakeFiles/cmTC_191c6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_191c6
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tanf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f27b2 && [1/2] Building C object CMakeFiles/cmTC_f27b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f27b2
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the trunc exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_127fb && [1/2] Building C object CMakeFiles/cmTC_127fb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_127fb
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the truncf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d77a5 && [1/2] Building C object CMakeFiles/cmTC_d77a5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d77a5
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6e252 && [1/2] Building C object CMakeFiles/cmTC_6e252.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6e252
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_685c1 && [1/2] Building C object CMakeFiles/cmTC_685c1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_685c1
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsscanf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_28bbd && [1/2] Building C object CMakeFiles/cmTC_28bbd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_28bbd
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_8bd5d && [1/2] Building C object CMakeFiles/cmTC_8bd5d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8bd5d
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_96b7d && [1/2] Building C object CMakeFiles/cmTC_96b7d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_96b7d
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_cb3a9 && [1/2] Building C object CMakeFiles/cmTC_cb3a9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cb3a9
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_20cbf && [1/2] Building C object CMakeFiles/cmTC_20cbf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_20cbf
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_fe161 && [1/2] Building C object CMakeFiles/cmTC_fe161.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fe161
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_75630 && [1/2] Building C object CMakeFiles/cmTC_75630.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_75630
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_489ab && [1/2] Building C object CMakeFiles/cmTC_489ab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_489ab
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsstr exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0ae39 && [1/2] Building C object CMakeFiles/cmTC_0ae39.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0ae39
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcstol exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_920c2 && [1/2] Building C object CMakeFiles/cmTC_920c2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_920c2
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstol
+  return ((int*)(&wcstol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasestr exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_30d34 && [1/2] Building C object CMakeFiles/cmTC_30d34.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_30d34
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LIBC_HAS_ISINF succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_61e43 && [1/2] Building C object CMakeFiles/cmTC_61e43.dir/src.c.o
+[2/2] Linking C executable cmTC_61e43
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isinf(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_ISINF_HANDLES_FLOAT succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_adce7 && [1/2] Building C object CMakeFiles/cmTC_adce7.dir/src.c.o
+[2/2] Linking C executable cmTC_adce7
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isinf(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISNAN succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_07531 && [1/2] Building C object CMakeFiles/cmTC_07531.dir/src.c.o
+[2/2] Linking C executable cmTC_07531
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isnan(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_ISNAN_HANDLES_FLOAT succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0295b && [1/2] Building C object CMakeFiles/cmTC_0295b.dir/src.c.o
+[2/2] Linking C executable cmTC_0295b
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isnan(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISNANF succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d90db && [1/2] Building C object CMakeFiles/cmTC_d90db.dir/src.c.o
+[2/2] Linking C executable cmTC_d90db
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isnanf(f);
+      }
+    
+Determining if the getpagesize exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2e89e && [1/2] Building C object CMakeFiles/cmTC_2e89e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2e89e
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2e254 && [1/2] Building C object CMakeFiles/cmTC_2e254.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2e254
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setjmp exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_04fa4 && [1/2] Building C object CMakeFiles/cmTC_04fa4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_04fa4
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nanosleep exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ca491 && [1/2] Building C object CMakeFiles/cmTC_ca491.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ca491
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_273be && [1/2] Building C object CMakeFiles/cmTC_273be.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_273be
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localtime_r exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_44a9b && [1/2] Building C object CMakeFiles/cmTC_44a9b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_44a9b
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_51cc4 && [1/2] Building C object CMakeFiles/cmTC_51cc4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_51cc4
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a2519 && [1/2] Building C object CMakeFiles/cmTC_a2519.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a2519
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6e6c4 && [1/2] Building C object CMakeFiles/cmTC_6e6c4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6e6c4
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b2cc6 && [1/2] Building C object CMakeFiles/cmTC_b2cc6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b2cc6
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_46a53 && [1/2] Building C object CMakeFiles/cmTC_46a53.dir/src.c.o
+[2/2] Linking C executable cmTC_46a53
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ST_MTIM succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_8a313 && [1/2] Building C object CMakeFiles/cmTC_8a313.dir/src.c.o
+[2/2] Linking C executable cmTC_8a313
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim);
+  return 0;
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_de474 && [1/2] Building C object CMakeFiles/cmTC_de474.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_de474
+
+
+File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_O_CLOEXEC succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2a0d4 && [1/2] Building C object CMakeFiles/cmTC_2a0d4.dir/src.c.o
+[2/2] Linking C executable cmTC_2a0d4
+
+
+Source file was:
+
+    #include <fcntl.h>
+    int flag = O_CLOEXEC;
+    int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test VULKAN_PASSED_ANDROID_CHECKS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_8dc0c && [1/2] Building C object CMakeFiles/cmTC_8dc0c.dir/src.c.o
+[2/2] Linking C executable cmTC_8dc0c
+
+
+Source file was:
+
+      #if defined(__ARM_ARCH) && __ARM_ARCH < 7
+      #error Vulkan doesn't work on this configuration
+      #endif
+      int main(int argc, char **argv) { return 0; }
+      
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ca7af && [1/2] Building C object CMakeFiles/cmTC_ca7af.dir/src.c.o
+[2/2] Linking C executable cmTC_ca7af
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_775e9 && [1/2] Building C object CMakeFiles/cmTC_775e9.dir/src.c.o
+[2/2] Linking C executable cmTC_775e9
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0e277 && [1/2] Building C object CMakeFiles/cmTC_0e277.dir/src.c.o
+[2/2] Linking C executable cmTC_0e277
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test COMPILER_HAS_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1c038 && [1/2] Building C object CMakeFiles/cmTC_1c038.dir/src.c.o
+[2/2] Linking C executable cmTC_1c038
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_81f89 && [1/2] Building C object CMakeFiles/cmTC_81f89.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_81f89
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f87be && [1/2] Building C object CMakeFiles/cmTC_f87be.dir/src.c.o
+[2/2] Linking C executable cmTC_f87be
+
+
+Source file was:
+
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              #ifdef __APPLE__
+              pthread_setname_np("");
+              #else
+              pthread_setname_np(pthread_self(),"");
+              #endif
+              return 0;
+            }
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1dd6e && [1/2] Building C object CMakeFiles/cmTC_1dd6e.dir/src.c.o
+[2/2] Linking C executable cmTC_1dd6e
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_WL_NO_UNDEFINED succeeded with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_85972 && [1/2] Building C object CMakeFiles/cmTC_85972.dir/src.c.o
+[2/2] Linking C executable cmTC_85972
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_742b5 && [1/2] Building C object CMakeFiles/cmTC_742b5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_742b5
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_79e17 && [1/2] Building C object CMakeFiles/cmTC_79e17.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_79e17
+
+
+
