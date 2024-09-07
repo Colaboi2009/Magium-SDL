@@ -54,7 +54,7 @@ set_target_properties(SDL3::SDL3_test PROPERTIES
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL/libSDL3_test.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL/libSDL3_test.a"
   )
 
 # Make sure the targets which have been exported in some other

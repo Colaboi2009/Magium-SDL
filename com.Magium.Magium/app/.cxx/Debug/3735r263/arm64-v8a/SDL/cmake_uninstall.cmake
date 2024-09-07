@@ -1,8 +1,8 @@
-if (NOT EXISTS "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt" files)
+file(READ "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

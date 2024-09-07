@@ -1,4 +1,3 @@
-
 package com.Magium.Magium;
 
 import org.libsdl.app.SDLActivity;

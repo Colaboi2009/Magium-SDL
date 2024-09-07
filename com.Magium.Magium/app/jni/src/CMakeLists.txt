@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
+set(CMAKE_CXX_STANDARD 23)
 
 project(my_app)
 
@@ -23,7 +24,7 @@ Possible ways to fix this:
 ")
 endif()
 
-file(GLOB SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
+file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
 
 add_library(main SHARED
     main.cpp

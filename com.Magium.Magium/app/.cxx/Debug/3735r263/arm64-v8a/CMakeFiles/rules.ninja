@@ -168,7 +168,7 @@ rule CXX_SHARED_LIBRARY_LINKER__main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\jni -BC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a
+  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\jni -BC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a
   description = Re-running CMake...
   generator = 1
 
@@ -177,7 +177,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -P C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a\CMakeFiles\VerifyGlobs.cmake
+  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -P C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
