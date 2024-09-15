@@ -1,20 +1,23 @@
 #pragma once
 
 #include <vector>
+#include <memory>
 
 #include "ui_element.hpp"
 
 namespace MagiumSDL{
+    using UISceneList = std::vector<std::shared_ptr<UIElement>>;
+    
     class UIScene : public UIElement{
     private:
-        std::vector<UIElement*> m_elements;
+        UISceneList m_elements;
 
     public:
         UIScene();
     
-        void add(UIElement *element) { m_elements.push_back(element); element->enable(); }
+        void add(std::shared_ptr<UIElement> e) { m_elements.push_back(e); e->enable(); }
         UIElement &get(int index) { return *m_elements[index]; }
-        std::vector<UIElement*> &getAll() { return m_elements; }
+        UISceneList &getAll() { return m_elements; }
         
         void destroyAll();
         

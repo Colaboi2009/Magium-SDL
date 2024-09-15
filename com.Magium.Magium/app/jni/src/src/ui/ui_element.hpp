@@ -3,6 +3,8 @@
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
 
+#include <string>
+
 namespace MagiumSDL{
     extern SDL_Renderer *g_renderer;
     extern TTF_Font *g_fontButtons;

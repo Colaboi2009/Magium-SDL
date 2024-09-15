@@ -61,6 +61,9 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "bitset": "cpp",
+        "regex": "cpp",
+        "iostream": "cpp"
     }
 }

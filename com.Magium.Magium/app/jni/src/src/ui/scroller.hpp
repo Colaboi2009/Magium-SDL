@@ -1,13 +1,15 @@
+#pragma once
+
+#include <memory>
+
 #include "raw_text.hpp"
-#include "../clock.hpp"
 
 namespace MagiumSDL{
     extern float g_height;
-    extern Clock g_clock;
 
     class Scroller : public UIElement{
     private:
-        UIScene &m_content;
+        std::shared_ptr<UIScene> m_content;
 
         float m_previousDelta;
 
@@ -27,20 +29,10 @@ namespace MagiumSDL{
         float m_maxScrollSpeed;
 
     public:
-        Scroller(SDL_FRect rect, UIScene &content) : m_content{content}
+        Scroller(SDL_FRect rect, std::shared_ptr<UIScene> &content) : m_content{content}
         {
             m_rect = rect;
             m_scrollPosition = 0;
-            m_maxScrollPosition = rect.y - rect.h;
-            for (int i = 0; i < content.getAll().size(); i++){
-                UIElement &u = content.get(i);
-                if (i == 0){
-                    m_maxScrollPosition += u.rect().h;
-                    continue;
-                }
-                m_maxScrollPosition += u.rect().h + (u.rect().y - content.get(i - 1).rect().y);
-            }
-
             m_scrollDeceleration = g_height * c_scrollModifier;
             m_minimumScrollSpeed = g_height * c_minimumScrollSpeedModifier;
             m_maxScrollSpeed = g_height * c_maxScrollSpeedModifier;
@@ -48,6 +40,22 @@ namespace MagiumSDL{
 
         void events(SDL_Event& event) override
         {
+            m_content->events(event);
+
+            float before = m_maxScrollPosition;
+            for (int i = 0; i < m_content->getAll().size(); i++){
+                UIElement &u = m_content->get(i);
+                float val = u.rect().y + u.rect().h;
+                if (val > m_maxScrollPosition)
+                    m_maxScrollPosition = val;
+            }
+            if (m_maxScrollPosition < m_rect.h)
+                return;
+            m_maxScrollPosition -= m_rect.h;
+            if (m_maxScrollPosition != before){
+                m_scrollPosition = 0;
+            }
+
             if (event.type == SDL_EVENT_FINGER_DOWN){
                 m_scrollVelocity = 0;
                 m_scrolling = true;
@@ -77,12 +85,12 @@ namespace MagiumSDL{
             }
 
             m_scrollPosition = std::clamp(m_scrollPosition, -m_maxScrollPosition, 0.f);
-            m_content.changeRectPosition(m_content.rect().x, m_scrollPosition);
+            m_content->changeRectPosition(m_content->rect().x, m_scrollPosition);
         }
 
         void render() override
         {
-            m_content.render();
+            m_content->render();
         }
     };
 }

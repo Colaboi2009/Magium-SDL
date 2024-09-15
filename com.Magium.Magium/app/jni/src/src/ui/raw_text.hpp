@@ -39,10 +39,14 @@ namespace MagiumSDL{
 
         void recreateTexture()
         {
-            SDL_DestroyTexture(m_texture);
-            SDL_Surface *textSurface = TTF_RenderUTF8_Blended_Wrapped(m_font, m_text.c_str(), m_color, m_wrappingLength / m_scale);
-            m_texture = SDL_CreateTextureFromSurface(g_renderer, textSurface);
-            SDL_DestroySurface(textSurface);
+            if (m_texture)
+                SDL_DestroyTexture(m_texture);
+
+            std::string newText = m_text;
+            SDL_Surface *surface = TTF_RenderUTF8_Solid_Wrapped(m_font, newText.c_str(), m_color, /*{35, 35, 35, 255},*/ m_wrappingLength / m_scale);
+            m_texture = SDL_CreateTextureFromSurface(g_renderer, surface);
+            SDL_DestroySurface(surface);
+
             SDL_GetTextureSize(m_texture, &m_rect.w, &m_rect.h);
             m_rect.w *= m_scale;
             m_rect.h *= m_scale;

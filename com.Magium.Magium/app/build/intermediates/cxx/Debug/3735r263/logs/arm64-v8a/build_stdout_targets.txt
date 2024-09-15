@@ -1,15 +1,3 @@
 ninja: Entering directory `C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a'
 [0/2] Re-checking globbed directories...
-[1/3] Building CXX object src/CMakeFiles/main.dir/src/parser/magium_decoder.cpp.o
-In file included from C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/parser/magium_decoder.cpp:1:
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/parser/magium_decoder.hpp:15:67: warning: non-void function does not return a value [-Wreturn-type]
-        std::vector<ConditionalText> parseText(std::string text) {};
-                                                                  ^
-1 warning generated.
-[2/3] Building CXX object src/CMakeFiles/main.dir/src/app.cpp.o
-In file included from C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/app.cpp:13:
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/parser/magium_decoder.hpp:15:67: warning: non-void function does not return a value [-Wreturn-type]
-        std::vector<ConditionalText> parseText(std::string text) {};
-                                                                  ^
-1 warning generated.
-[3/3] Linking CXX shared library C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\build\intermediates\cxx\Debug\3735r263\obj\arm64-v8a\libmain.so
+ninja: no work to do.
