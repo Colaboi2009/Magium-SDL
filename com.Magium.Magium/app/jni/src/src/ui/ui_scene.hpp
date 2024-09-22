@@ -19,7 +19,8 @@ namespace MagiumSDL{
         UIElement &get(int index) { return *m_elements[index]; }
         UISceneList &getAll() { return m_elements; }
         
-        void destroyAll();
+        void remove(std::shared_ptr<UIElement> e);
+        void clear();
         
         void enable() override;
         void disable() override;

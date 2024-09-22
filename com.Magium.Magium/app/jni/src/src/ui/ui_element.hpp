@@ -16,15 +16,11 @@ namespace MagiumSDL{
         bool m_destroyed = false;
         
     public:
-        SDL_FRect rect() { return m_rect; }
-        virtual void changeRectPosition(float x, float y) { m_rect.x = x; m_rect.y = y; }
+        SDL_FRect &rect() { return m_rect; }
 
         virtual void enable() { m_enabled = true; }
         virtual void disable() { m_enabled = false; }
         bool enabled() { return m_enabled; }
-
-        virtual void destroy() { m_destroyed = true; }
-        bool destroyed() { return m_destroyed; }
 
         virtual void events(SDL_Event& event) {}
         virtual void render() {}

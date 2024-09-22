@@ -1,3 +1,4 @@
 ninja: Entering directory `C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a'
 [0/2] Re-checking globbed directories...
-ninja: no work to do.
+[1/2] Building CXX object src/CMakeFiles/main.dir/src/app.cpp.o
+[2/2] Linking CXX shared library C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\build\intermediates\cxx\Debug\3735r263\obj\arm64-v8a\libmain.so

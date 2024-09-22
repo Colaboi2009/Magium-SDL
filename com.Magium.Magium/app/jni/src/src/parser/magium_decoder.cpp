@@ -5,10 +5,10 @@
 
 #include <functional>
 #include <memory>
-#include <chrono>
 #include <algorithm>
 
-#include "utility.hpp"
+#include "parser_utility.hpp"
+#include "../helper/helper.hpp"
 
 namespace MagiumSDL {
     extern SDL_Color COLOR_GAME_TEXT_STORY_TEXT;
@@ -19,40 +19,13 @@ namespace MagiumSDL {
     extern float STORY_BUTTON_HEIGHT;
     extern float STORY_BUTTON_SPACING;
     extern float STORY_BUTTON_BOTTOM_PADDING;
+    extern UIScene g_game;
 namespace Parser{
     MagiumDecoder::MagiumDecoder(std::shared_ptr<UIScene> scene, std::shared_ptr<RawText> text, std::shared_ptr<RawText> chapterCounterText)
-             : m_uiscene{scene}, m_text{text}, m_chapterCounterText{chapterCounterText}
+             : m_uiscene{scene}, m_text{text}, m_chapterCounterText{chapterCounterText}, m_data{}
     {
-        m_data.addVarVal({
-            .var = c_availablePointsVariable,
-            .val = "3",
-        });
-        for (std::string s : c_statNames) {
-            m_data.addVarVal({
-                .var = s,
-                .val = "0",
-            });
-        }
-    }
-
-    void MagiumDecoder::setStatVariables(std::shared_ptr<Button> strength, std::shared_ptr<Button> speed, std::shared_ptr<Button> toughness, std::shared_ptr<Button> reflexes, 
-                                         std::shared_ptr<Button> hearing, std::shared_ptr<Button> observation, std::shared_ptr<Button> ancientLanguages, std::shared_ptr<Button> combatTechnique, 
-                                         std::shared_ptr<Button> premonition, std::shared_ptr<Button> bluff, std::shared_ptr<Button> magicalSense, std::shared_ptr<Button> auraHardening, 
-                                         std::shared_ptr<Button> magicalPower, std::shared_ptr<Button> magicalKnowledge)
-    {
-        m_buttonStrength = strength;
-        m_buttonSpeed = speed;
-        m_buttonToughness = toughness;
-        m_buttonReflexes = reflexes;
-        m_buttonHearing = hearing;
-        m_buttonObservation = observation;
-        m_buttonAncientLanguages = ancientLanguages;
-        m_buttonCombatTechnique = combatTechnique;
-        m_buttonBluff = bluff;
-        m_buttonMagicalSense = magicalSense;
-        m_buttonAuraHardening = auraHardening;
-        m_buttonMagicalPower = magicalPower;
-        m_buttonMagicalKnowledge = magicalKnowledge;
+        processAndStoreFile(c_fileNames[0] + c_fileExtension);
+        updateScene(m_currentChapter[0]);
     }
 
     std::string MagiumDecoder::readFileSDLIOStream(SDL_IOStream *stream)
@@ -107,6 +80,8 @@ namespace Parser{
         std::vector<ConditionalText> texts;
         std::string textNoSpace = removeSpaces(text);
 
+        int DEBUG_NUMBER = 0;
+
         int currentPos = 0;
         while (true) {
             if (textNoSpace.find("set(") != textNoSpace.npos) {
@@ -154,7 +129,6 @@ namespace Parser{
                 currentPos = endPos + 1;
             } 
             else {
-                
                 int endPos = text.find("#", currentPos);
                 if (endPos == text.npos) {
                     endPos = text.length() - 1;
@@ -166,7 +140,7 @@ namespace Parser{
 
                 texts.push_back(conditionText);
                 
-                if (endPos == text.length() - 1)
+                if (endPos == text.length() - 1 || textNoSpace.length() <= 1)
                     break;
 
                 textNoSpace.erase(0, textNoSpace.find("#"));
@@ -228,13 +202,22 @@ namespace Parser{
                 idEnd = choiceEndPos;
             choice.nextSceneID = spaceless.substr(idStart, idEnd - idStart);
 
+            int specialStart = spaceless.find("special:");
+            if (specialStart != spaceless.npos){
+                specialStart += 8;
+                choice.special = spaceless.substr(specialStart, choiceEndPos - specialStart);
+            }
+
             int curPos = 0;
             while (true) {
                 VarVal var;
                 
                 curPos = spaceless.find("v_", curPos + 2);
-                if (curPos == spaceless.npos || curPos > choiceEndPos)
+                if (curPos == spaceless.npos // no more
+                    || curPos > choiceEndPos // too far
+                    || (choice.special != "" && curPos > specialStart)) // part of achievement
                     break;
+
                 int varEnd = spaceless.find("=", curPos);
                 var.var = spaceless.substr(curPos, varEnd - curPos);
 
@@ -244,12 +227,6 @@ namespace Parser{
                 var.val = spaceless.substr(varEnd + 1, valEnd - varEnd - 1);
 
                 choice.variables.push_back(var);
-            }
-
-            int specialStart = spaceless.find("special:");
-            if (specialStart != spaceless.npos){
-                specialStart += 8;
-                choice.special = spaceless.substr(specialStart, choiceEndPos - specialStart);
             }
 
             choices.push_back(choice);
@@ -277,8 +254,9 @@ namespace Parser{
     void MagiumDecoder::evaluateSetCommands(std::vector<VariableSet> &set)
     {
         for (VariableSet &s : set) {
-            if (evaluateCondition(s.condition))
+            if (evaluateCondition(s.condition)){
                 m_data.addVarVal(s.variable);
+            }
         }
     }
 
@@ -296,18 +274,17 @@ namespace Parser{
     bool MagiumDecoder::evaluateCondition(Condition condition)
     {
         std::string cond = condition.condition;
-        if (cond == ""){
+        if (cond == "")
             return true;
-        }
 
         while (true) {
             std::vector<size_t> possibleSigns = {
                 cond.find("=="),
                 cond.find("!="),
-                cond.find(">"),
-                cond.find("<"),
                 cond.find(">="),
                 cond.find("<="),
+                cond.find(">"),
+                cond.find("<"),
             };
             size_t signPos = cond.length() + 1;
             BoolOP operation;
@@ -352,22 +329,40 @@ namespace Parser{
                 break;
 
             std::string until = cond.substr(0, andPos);
-            std::vector<size_t> possibleStarts = { 
-                0,
-                until.find("||") == until.npos? 0 : until.find("||") + 2,
-            };
-            int start = *std::max_element(possibleStarts.begin(), possibleStarts.end());
+            int start = until.find("||") == until.npos? 0 : findLastOf(until, "||") + 2;
 
-            std::vector<size_t> possibleEnds = {cond.find("&&", andPos + 2), cond.find("||", andPos + 2), cond.length()};
+            std::vector<size_t> possibleEnds = {
+                cond.find("&&", andPos + 2), 
+                cond.find("||", andPos + 2), 
+                cond.length(),
+            };
             int end = *std::min_element(possibleEnds.begin(), possibleEnds.end());
 
             std::string left = cond.substr(start, andPos - start);
             std::string right = cond.substr(andPos + 2, end - andPos - 2);
             bool evaluation = left == "1" && right == "1";
+
             cond.replace(start, end - start, std::to_string(evaluation));
         }
 
         return cond.find("1") != cond.npos;
+    }
+
+    std::string MagiumDecoder::parseAchievementSpecial(std::string special, std::string &text)
+    {
+        int firstDash = special.find("-") + 1;
+        int secondDash = special.find("-", firstDash);
+        text = special.substr(firstDash, secondDash - firstDash);
+        return special.substr(secondDash + 1, special.length() - secondDash - 1);
+    }
+
+    void MagiumDecoder::showAchievement(std::string text)
+    {
+        std::shared_ptr<RawImage> achievementImage = std::make_shared<RawImage>(SDL_FRect{200, 200, 400, 300}, SDL_Color{100, 100, 100, 255});
+        g_game.add(achievementImage);
+        Helper::delayFunction(5.f, [achievementImage](){
+            g_game.remove(achievementImage);
+        });
     }
 
     void MagiumDecoder::processAndStoreFile(std::string filename)
@@ -385,7 +380,7 @@ namespace Parser{
 
             MagiumScene scene;
             scene.id = findID(sceneStr);
-            
+
             std::string text = findText(sceneStr);
             scene.texts = parseText(text, scene.varSets);
 
@@ -394,74 +389,87 @@ namespace Parser{
 
             m_currentChapter.push_back(scene);
         }
-        updateScene(m_currentId);
     }
 
     void MagiumDecoder::applyChoice(Choice choice)
     {
-        SDL_Log("Choice taken: %s, next scene: %s", choice.text.c_str(), choice.nextSceneID.c_str());
-        m_currentId = choice.nextSceneID;
+        SDL_Log("Next id: %s", choice.nextSceneID.c_str());
+        m_uiscene->clear();
+        std::string total;
+        for (VarVal v : m_data.getAll()) {
+            total += "{\"" + v.var + "\",\"" + v.val + "\"},";
+        }
+        SDL_Log("Data: %s", total.c_str());
+
+        m_data.setSceneId(choice.nextSceneID);
         for (VarVal &v : choice.variables)
             m_data.addVarVal(v);
-        
+
         if (choice.special == c_specialCheckpointSave) {
-            processAndStoreFile(c_chapterNames[m_currentChapterNumber] + ".magium");
-            m_currentChapterNumber++;
-            std::string chapterText = "Chapter " + std::to_string(m_currentChapterNumber);
-            m_chapterCounterText->changeText(chapterText);
-            return;
+            m_data.incrementChapterNumber();
+            if (m_data.chapterNumber() > c_bookChapterCount[m_data.bookNumber() - 1]) {
+                m_data.resetChapterNumber();
+                m_data.incrementBookNumber();
+            }
+            if (m_data.bookNumber() == 1) {
+                m_chapterCounterText->changeText("Chapter " + std::to_string(m_data.chapterNumber()));
+            } else {
+                m_chapterCounterText->changeText("Book " + std::to_string(m_data.bookNumber()) + " -Chapter " + std::to_string(m_data.chapterNumber()));
+            }
         }
 
         if (choice.special == c_specialStats) {
 
         }
 
-        if (choice.special == c_specialAchievement) {
-
+        if (choice.special.find("-") != choice.special.npos && choice.special.substr(0, choice.special.find("-")) == c_specialAchievement) {
+            std::string achievementText;
+            if (!m_data.addAchievementExists(parseAchievementSpecial(choice.special, achievementText))) {
+                showAchievement(achievementText);
+            }
         }
 
         if (choice.special == c_specialRestart) {
-            m_data.clear();
-            m_currentChapterNumber = 1;
+
         }
 
         if (choice.special == c_specialSaves) {
 
         }
 
-        updateScene(m_currentId);
+        MagiumScene scene;
+        for (MagiumScene &ms : m_currentChapter)
+            if (ms.id == m_data.sceneId())
+                scene = ms;
+        if (scene.texts.size() == 0){
+            m_data.incrementFileIndex();
+            processAndStoreFile(c_fileNames[m_data.fileIndex()] + c_fileExtension);
+            scene = m_currentChapter[0];
+        }
+
+        updateScene(scene);
     }
 
-    void MagiumDecoder::updateScene(std::string id)
+    void MagiumDecoder::updateScene(MagiumScene scene)
     {
-        m_uiscene->destroyAll();
+        evaluateSetCommands(scene.varSets);
 
-        MagiumScene magScene = m_currentChapter[0];
-        for (MagiumScene &ms : m_currentChapter) {
-            if (ms.id == id){
-                magScene = ms;
-                break;
-            }
-        }
-        evaluateSetCommands(magScene.varSets);
-        m_text->changeText(evaluateText(magScene.texts));
+        m_text->changeText(evaluateText(scene.texts));
         m_uiscene->add(m_text);
 
-        std::vector<Choice> choices = evaluateChoices(magScene.choices);
+        std::vector<Choice> choices = evaluateChoices(scene.choices);
         for (int i = 0; i < choices.size(); i++) {
             SDL_FRect r = {g_width / 2.f - g_width * STORY_BUTTON_WIDTH / 2.f, m_text->rect().h + m_text->rect().y + g_height * STORY_BUTTON_SPACING * i, g_width * STORY_BUTTON_WIDTH, g_height * STORY_BUTTON_HEIGHT};
-            std::string nextId = choices[i].nextSceneID;
             Choice *choiceTaken = &m_choiceTaken;
             bool *clicked = &m_clicked;
             Choice associatedChoice = choices[i];
-            MagiumData *data = &m_data;
             std::shared_ptr<Button> b = std::make_shared<Button>(r, COLOR_GAME_TEXT_OPTION_BUTTON, COLOR_GAME_TEXT_STORY_TEXT, choices[i].text, STORY_TEXT_SIZE, [associatedChoice, choiceTaken, clicked](){
                 *clicked = true;
                 *choiceTaken = associatedChoice;
             });
             m_uiscene->add(b);
         }
-        auto finalRect = m_uiscene->get(m_uiscene->getAll().size() - 1).rect();
+        SDL_FRect finalRect = m_uiscene->get(m_uiscene->getAll().size() - 1).rect();
         std::shared_ptr<RawImage> padding = std::make_shared<RawImage>(SDL_FRect{finalRect.x, finalRect.y + g_width * STORY_BUTTON_BOTTOM_PADDING}, SDL_Color{0, 0, 0, 0});
         m_uiscene->add(padding);
     }
@@ -472,6 +480,14 @@ namespace Parser{
             applyChoice(m_choiceTaken);
             m_clicked = false;
         }
+    }
+
+    void MagiumDecoder::buttonIncrementStat(std::string statName)
+    {
+        m_data.addVarVal({
+            .var = statName, 
+            .val = "+1",
+        });
     }
 }
 }

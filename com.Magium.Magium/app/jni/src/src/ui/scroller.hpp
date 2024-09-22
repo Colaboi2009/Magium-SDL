@@ -49,11 +49,15 @@ namespace MagiumSDL{
                 if (val > m_maxScrollPosition)
                     m_maxScrollPosition = val;
             }
-            if (m_maxScrollPosition < m_rect.h)
+            if (m_maxScrollPosition < m_rect.h){ // scroller too small
+                m_scrollPosition = 0;
+                m_content->rect().y = m_scrollPosition;
                 return;
+            }
             m_maxScrollPosition -= m_rect.h;
             if (m_maxScrollPosition != before){
                 m_scrollPosition = 0;
+                // m_scrollPosition = -m_maxScrollPosition;  for debugging
             }
 
             if (event.type == SDL_EVENT_FINGER_DOWN){
@@ -85,7 +89,7 @@ namespace MagiumSDL{
             }
 
             m_scrollPosition = std::clamp(m_scrollPosition, -m_maxScrollPosition, 0.f);
-            m_content->changeRectPosition(m_content->rect().x, m_scrollPosition);
+            m_content->rect().y = m_scrollPosition;
         }
 
         void render() override

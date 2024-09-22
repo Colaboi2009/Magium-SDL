@@ -23,14 +23,20 @@ namespace MagiumSDL{
         {
             if (wrappingLength == -1)
                 m_wrappingLength = 64 * text.size();
-            changeRectPosition(x, y);
+            m_rect = {x, y};
+            m_texture = nullptr;
             recreateTexture();
         }
 
         ~RawText()
         {
-            SDL_DestroyTexture(m_texture);
+            if (m_texture){
+                SDL_DestroyTexture(m_texture);
+                m_texture = nullptr;
+            }
         }
+
+        void setFont(TTF_Font *font) { m_font = font; }
 
         void changeText(std::string newText){
             m_text = newText;
@@ -39,11 +45,12 @@ namespace MagiumSDL{
 
         void recreateTexture()
         {
-            if (m_texture)
+            if (m_texture){
                 SDL_DestroyTexture(m_texture);
+                m_texture = nullptr;
+            }
 
-            std::string newText = m_text;
-            SDL_Surface *surface = TTF_RenderUTF8_Solid_Wrapped(m_font, newText.c_str(), m_color, /*{35, 35, 35, 255},*/ m_wrappingLength / m_scale);
+            SDL_Surface *surface = TTF_RenderUTF8_Blended_Wrapped(m_font, m_text.c_str(), m_color, /*{35, 35, 35, 255},*/ m_wrappingLength / m_scale);
             m_texture = SDL_CreateTextureFromSurface(g_renderer, surface);
             SDL_DestroySurface(surface);
 

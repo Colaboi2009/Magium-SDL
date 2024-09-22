@@ -5,11 +5,16 @@ namespace MagiumSDL{
         m_rect = {0, 0, 0, 0};
     }
 
-    void UIScene::destroyAll()
+    void UIScene::remove(std::shared_ptr<UIElement> e)
     {
-        for (auto e : m_elements){
-            e->destroy();
+        for (int i = 0; i < m_elements.size(); i++) {
+            if (m_elements[i] == e)
+                m_elements.erase(m_elements.begin() + i);
         }
+    }
+
+    void UIScene::clear()
+    {
         m_elements.clear();
     }
 
@@ -51,11 +56,12 @@ namespace MagiumSDL{
         for (int i = 0; i < m_elements.size(); i++){
             auto e = m_elements[i];
             SDL_FRect originalPos = e->rect();
-            e->changeRectPosition(e->rect().x + m_rect.x, e->rect().y + m_rect.y);
+            e->rect().x += m_rect.x;
+            e->rect().y += m_rect.y;
             if (e->enabled()){
                 e->render();
             }
-            e->changeRectPosition(originalPos.x, originalPos.y);
+            e->rect() = originalPos;
         }
     }
 }

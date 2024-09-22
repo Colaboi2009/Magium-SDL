@@ -5,5 +5,7 @@ color colorPrimary
 color colorPrimaryDark
 color statusBarColor
 mipmap ic_launcher
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 string app_name
 style AppTheme

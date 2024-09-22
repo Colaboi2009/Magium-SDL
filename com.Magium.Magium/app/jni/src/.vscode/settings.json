@@ -65,5 +65,6 @@
         "bitset": "cpp",
         "regex": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

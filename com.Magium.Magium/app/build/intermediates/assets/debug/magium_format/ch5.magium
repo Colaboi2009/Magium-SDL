@@ -707,6 +707,7 @@ From a logical perspective, it would be less risky to not intervene. There's no 
 
 The woman screams again, this time louder, and sounding more terrified.
 
+
 }
 #if(v_ch5_admit_lie == 1) {
 As I reach the exit,  I suddenly hear a woman's scream coming from far in the distance. At the same time, I get a warning message floating in front of my eyes, telling me to not hurt her because she's one of the locals. 
