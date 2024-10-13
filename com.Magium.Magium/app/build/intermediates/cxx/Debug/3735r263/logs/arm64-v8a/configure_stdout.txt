@@ -1,12 +1,5 @@
 -- Checking for module 'libusb-1.0>=1.0.16'
---   perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LC_ALL = (unset),
-	(possibly more locale environment variables)
-	LANG = "en_US.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the system default locale ("English_United Arab Emirates.1252").
-Can't find libusb-1.0.pc in any of C:/Strawberry/c/lib/pkgconfig
+--   Can't find libusb-1.0.pc in any of C:/Strawberry/c/lib/pkgconfig
 use the PKG_CONFIG_PATH environment variable, or
 specify extra search paths via 'search_paths'
 -- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")

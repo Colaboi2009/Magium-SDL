@@ -1,0 +1,106 @@
+{
+  "buildFiles": [
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\CMakeLists.txt",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\3rdparty.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\cmake_uninstall.cmake.in",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\FindLibUSB.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\GetGitRevisionDescription.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\macros.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\PreseedEmscriptenCache.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\PreseedMSVCCache.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\SDL3Config.cmake.in",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdlchecks.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdlcompilers.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdlcpu.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdlmanpages.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdlplatform.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\cmake\\sdltargets.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\CMakeLists.txt",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\include\\build_config\\SDL_build_config.h.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL\\include\\build_config\\SDL_revision.h.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\CheckCPUArchitecture.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\Findwebp.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\GetGitRevisionDescription.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\PrivateSdlFunctions.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\sdlmanpages.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\cmake\\sdlplatform.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_image\\CMakeLists.txt",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_ttf\\cmake\\GetGitRevisionDescription.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_ttf\\cmake\\PrivateSdlFunctions.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_ttf\\cmake\\sdlmanpages.cmake",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_ttf\\CMakeLists.txt",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\SDL_ttf\\external\\freetype\\CMakeLists.txt",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\src\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\v4y3e455\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\v4y3e455\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "main::@145eef247bfb46b6828c": {
+      "artifactName": "main",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libmain.so",
+      "runtimeFiles": [
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3_image.so",
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3_ttf.so",
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3.so"
+      ]
+    },
+    "SDL3-shared::@e7c329919722962a2ad4": {
+      "artifactName": "SDL3-shared",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3.so",
+      "runtimeFiles": []
+    },
+    "SDL_uclibc::@e7c329919722962a2ad4": {
+      "artifactName": "SDL_uclibc",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\v4y3e455\\arm64-v8a\\SDL\\libSDL_uclibc.a",
+      "runtimeFiles": []
+    },
+    "freetype::@8a7c27c9ba2264f03a1b": {
+      "artifactName": "freetype",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\v4y3e455\\arm64-v8a\\SDL_ttf\\external\\freetype\\libfreetyped.a",
+      "runtimeFiles": []
+    },
+    "uninstall::@e7c329919722962a2ad4": {
+      "artifactName": "uninstall",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "SDL3_image-shared::@5a11176e8da1d970966f": {
+      "artifactName": "SDL3_image-shared",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3_image.so",
+      "runtimeFiles": [
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3.so"
+      ]
+    },
+    "SDL3_ttf-shared::@b80ba31c6455629d7a9d": {
+      "artifactName": "SDL3_ttf-shared",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3_ttf.so",
+      "runtimeFiles": [
+        "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\v4y3e455\\obj\\arm64-v8a\\libSDL3.so"
+      ]
+    },
+    "SDL3_test::@e7c329919722962a2ad4": {
+      "artifactName": "SDL3_test",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\v4y3e455\\arm64-v8a\\SDL\\libSDL3_test.a",
+      "runtimeFiles": []
+    }
+  }
+}

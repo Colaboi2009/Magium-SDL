@@ -5,7 +5,6 @@ cmake_policy(SET CMP0009 NEW)
 # SRC_FILES at src/CMakeLists.txt:27 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/app.cpp"
   "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/parser/magium_decoder.cpp"
   "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/src/src/ui/ui_scene.cpp"
   )

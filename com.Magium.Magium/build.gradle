@@ -23,3 +23,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+task generateCompileCommands(type: Exec) {
+    commandLine 'sh', '-c', 'cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON'
+}

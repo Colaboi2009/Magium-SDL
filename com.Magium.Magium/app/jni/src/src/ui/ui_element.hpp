@@ -5,10 +5,10 @@
 
 #include <string>
 
-namespace MagiumSDL{
-    extern SDL_Renderer *g_renderer;
-    extern TTF_Font *g_fontButtons;
+extern SDL_Renderer *g_renderer;
+extern TTF_Font *g_fontButtons;
 
+namespace MagiumSDL{
     class UIElement{
     protected:
         SDL_FRect m_rect;    

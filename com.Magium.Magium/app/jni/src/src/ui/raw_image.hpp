@@ -2,23 +2,20 @@
 
 #include "ui_element.hpp"
 
-namespace MagiumSDL{
-    extern SDL_Renderer *g_renderer;
+extern SDL_Renderer *g_renderer;
 
-    class RawImage : public UIElement{
-    private:
-        SDL_Color m_color;
+namespace MagiumSDL {
 
-    public:
-        RawImage(SDL_FRect rect, SDL_Color color) : m_color{color}
-        {
-            m_rect = rect;
-        }
+class RawImage : public UIElement {
+  private:
+    SDL_Color m_color;
 
-        void render() override
-        {
-            SDL_SetRenderDrawColor(g_renderer, m_color.r, m_color.g, m_color.b, m_color.a);
-            SDL_RenderFillRect(g_renderer, &m_rect);
-        }
-    };
-}
+  public:
+    RawImage(SDL_FRect rect, SDL_Color color) : m_color{color} { m_rect = rect; }
+
+    void render() override {
+        SDL_SetRenderDrawColor(g_renderer, m_color.r, m_color.g, m_color.b, m_color.a);
+        SDL_RenderFillRect(g_renderer, &m_rect);
+    }
+};
+} // namespace MagiumSDL

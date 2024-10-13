@@ -2,9 +2,9 @@
 
 #include <string>
 #include <vector>
-#include "parser_utility.hpp"
+#include <unordered_map>
 
-namespace MagiumSDL::Parser{
+namespace MagiumSDL{
     const std::string c_magiumFormatFilepath = "magium_format/"; // in the assets folder directory
     const std::string c_fileExtension = ".magium";
 
@@ -18,7 +18,7 @@ namespace MagiumSDL::Parser{
     const std::string c_availablePointsVariable = "v_available_points";
     const std::string c_availablePointsAuxVariable = "v_available_points_aux";
     const std::string c_maxStatVariable = "v_max_stat";
-    const std::vector<std::string> c_statNames = { 
+    const std::vector<std::string> c_statVariableNames = { 
         "v_strength", "v_toughness",
         "v_agility", // Speed
         "v_reflexes", "v_hearing",
@@ -26,6 +26,23 @@ namespace MagiumSDL::Parser{
         "v_ancient_languages", "v_combat_technique", "v_premonition", "v_bluff", "v_magical_sense", "v_aura_hardening",
         "v_magical_power", "v_magical_knowledge", // special stats
     };
+	const std::unordered_map<std::string, int> c_statNameToStatVariableNameIndex = {
+		{"Strength", 0},
+		{"Toughness", 1},
+		{"Speed", 2},
+		{"Reflexes", 3},
+		{"Hearing", 4},
+		{"Observation", 5},
+		{"Ancient languages", 6},
+		{"Combat technique", 7},
+		{"Premonition", 8},
+		{"Bluff (Aura concealment)", 9},
+		{"Magical sense", 10},
+		{"Aura hardening", 11},
+		{"Magical power", 12},
+		{"Magical knowledge", 13},
+	};
+
     const std::vector<std::string> c_fileNames = {"ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ch8", "ch9", "ch10", "ch11a", "ch11b",
                                                          "b2ch1","b2ch2", "b2ch3", "b2ch4a", "b2ch4b", "b2ch5a", "b2ch5b", "b2ch6", "b2ch7", "b2ch8", "b2ch9a", "b2ch9b", "b2ch10a", "b2ch10b", "b2ch11a",  "b2ch11b", "b2ch11c",
                                                          "b3ch1","b3ch2a", "b3ch2b", "b3ch2c", "b3ch3a", "b3ch3b", "b3ch4a", "b3ch4b", "b3ch5a", "b3ch5b", "b3ch6a", "b3ch6b", "b3ch6c", "b3ch7a", "b3ch8a", "b3ch8b", "b3ch9a", "b3ch9b", "b3ch9c", "b3ch10a", "b3ch10b", "b3ch10c", "b3ch11a", "b3ch12a", "b3ch12b"};
