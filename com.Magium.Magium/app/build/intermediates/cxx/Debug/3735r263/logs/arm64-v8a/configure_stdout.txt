@@ -1,14 +1,10 @@
--- Checking for module 'libusb-1.0>=1.0.16'
---   Can't find libusb-1.0.pc in any of C:/Strawberry/c/lib/pkgconfig
-use the PKG_CONFIG_PATH environment variable, or
-specify extra search paths via 'search_paths'
 -- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")
 -- 
 -- SDL3 was configured with the following options:
 -- 
 -- Platform: Android-1
 -- 64-bit:   TRUE
--- Compiler: C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Compiler: /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
 -- Revision: SDL-3.1.2-no-vcs
 -- Vendor:   
 -- 
@@ -141,4 +137,4 @@ specify extra search paths via 'search_paths'
 -- SDL3_ttf: Using vendored freetype library
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a
+-- Build files have been written to: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a

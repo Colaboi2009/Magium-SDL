@@ -27,7 +27,6 @@ endif()
 file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
 
 add_library(main SHARED
-    main.cpp
     ${SRC_FILES}
 )
 target_link_libraries(main PRIVATE SDL3::SDL3 SDL3_image::SDL3_image SDL3_ttf::SDL3_ttf)

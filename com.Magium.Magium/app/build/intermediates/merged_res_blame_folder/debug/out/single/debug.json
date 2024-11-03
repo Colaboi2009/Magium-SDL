@@ -1,43 +1,31 @@
 [
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
-    },
-    {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
     },
     {
         "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "com.Magium.Magium.app-main-13:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-mdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
-    },
-    {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-hdpi/ic_launcher_adaptive_back.png"
     },
     {
         "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -48,39 +36,31 @@
         "source": "com.Magium.Magium.app-main-13:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
-    },
-    {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
     },
     {
         "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.Magium.Magium.app-main-13:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "com.Magium.Magium.app-main-13:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-merged_res-11:\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\alaam\\.gradle\\daemon\\8.1.1\\com.Magium.Magium.app-main-13:\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
-    },
-    {
         "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "com.Magium.Magium.app-main-13:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.Magium.Magium.app-merged_res-11:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.Magium.Magium.app-main-13:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
     }
 ]

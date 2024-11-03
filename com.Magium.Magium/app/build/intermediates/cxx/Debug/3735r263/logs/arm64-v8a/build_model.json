@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\3735r263\\arm64-v8a",
-  "soFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\3735r263\\obj\\arm64-v8a",
-  "soRepublishFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "cxxBuildFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a",
+  "soFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a",
+  "soRepublishFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cmake/debug/obj/arm64-v8a",
   "abiPlatformVersion": 19,
   "cmake": {
     "effectiveConfiguration": {
@@ -32,15 +32,15 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx",
-      "intermediatesBaseFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates",
-      "intermediatesFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx",
+      "cxxFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx",
+      "intermediatesBaseFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates",
+      "intermediatesFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app",
-      "moduleBuildFile": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build.gradle",
-      "makeFile": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni\\CMakeLists.txt",
+      "moduleRootFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app",
+      "moduleBuildFile": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build.gradle",
+      "makeFile": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+      "ndkFolder": "/home/alaam/Android/Sdk/ndk/25.1.8937393",
       "ndkVersion": "25.1.8937393",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -106,30 +106,30 @@
           "default": true
         }
       ],
-      "cmakeToolchainFile": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "/home/alaam/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake",
       "cmake": {
-        "cmakeExe": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe"
+        "cmakeExe": "/home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium",
-        "sdkFolder": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk",
+        "rootBuildGradleFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium",
+        "sdkFolder": "/home/alaam/Android/Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },
       "outputOptions": [],
-      "ninjaExe": "C:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "ninjaExe": "/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja",
       "hasBuildTimeInformation": true
     },
     "prefabClassPaths": [],
@@ -141,28 +141,28 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\3735r263\\prefab\\arm64-v8a",
+  "prefabFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/prefab/arm64-v8a",
   "isActiveAbi": true,
   "fullConfigurationHash": "3735r263fx4l6z16s524k3l6y4l276nl1c1n2e4a311o4c5k714m2n723ec",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.1.1.\n#   - $NDK is the path to NDK 25.1.8937393.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app/jni\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_STL\u003dc++_static",
   "configurationArguments": [
-    "-HC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\jni",
+    "-H/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d19",
     "-DANDROID_ABI\u003darm64-v8a",
     "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
-    "-DANDROID_NDK\u003dC:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
-    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
-    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
-    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\alaam\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\3735r263\\obj\\arm64-v8a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\3735r263\\obj\\arm64-v8a",
+    "-DANDROID_NDK\u003d/home/alaam/Android/Sdk/ndk/25.1.8937393",
+    "-DCMAKE_ANDROID_NDK\u003d/home/alaam/Android/Sdk/ndk/25.1.8937393",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/alaam/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BC:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\.cxx\\Debug\\3735r263\\arm64-v8a",
+    "-B/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a",
     "-GNinja",
     "-DANDROID_PLATFORM\u003dandroid-19",
     "-DANDROID_STL\u003dc++_static"
   ],
-  "intermediatesParentFolder": "C:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\cxx\\Debug\\3735r263"
+  "intermediatesParentFolder": "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263"
 }

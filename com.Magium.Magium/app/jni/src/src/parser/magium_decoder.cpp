@@ -10,25 +10,25 @@
 #include "../helper/helper.hpp"
 #include "../ui/image.hpp"
 #include "../values.hpp"
-#include "parser_utility.hpp"
+#include "persister.hpp"
+#include "utility.hpp"
 
 extern TTF_Font *g_fontMainText;
 extern MagiumSDL::UIScene g_game;
 
 namespace MagiumSDL {
 MagiumDecoder::MagiumDecoder(std::shared_ptr<UIScene> scene, std::shared_ptr<RawText> text, std::shared_ptr<RawText> chapterCounterText)
-    : m_uiscene{scene}, m_text{text}, m_chapterCounterText{chapterCounterText}, m_data{} {
-    processAndStoreFile(c_fileNames[0] + c_fileExtension);
-    updateScene(m_currentChapter[0]);
-}
+    : m_uiscene{scene}, m_text{text}, m_chapterCounterText{chapterCounterText}, m_persister{}, m_data{} {
+    if (m_persister.startupData()) {
+        m_data.setupData(m_persister.achievements(), m_persister.getSlot("active"));
+    }
 
-std::string MagiumDecoder::readFileSDLIOStream(SDL_IOStream *stream) {
-    size_t fileSize = SDL_GetIOSize(stream);
-    char *buffer = (char *)SDL_malloc(fileSize + 1);
-    SDL_ReadIO(stream, buffer, fileSize);
-    buffer[fileSize] = '\0';
-    SDL_free(buffer);
-    return buffer;
+    processAndStoreFile(c_fileNames[m_data.fileIndex()] + c_fileExtension);
+    updateScene();
+
+    m_persister.addSlot(m_data.slot());
+    m_persister.updateAchievements(m_data.achievements());
+    m_persister.save();
 }
 
 std::vector<std::string> MagiumDecoder::separateFiles(std::string &chapter) {
@@ -67,8 +67,6 @@ std::string MagiumDecoder::findChoices(std::string &scene) {
 std::vector<ConditionalText> MagiumDecoder::parseText(std::string text, std::vector<VariableSet> &sets) {
     std::vector<ConditionalText> texts;
     std::string textNoSpace = removeSpaces(text);
-
-    int DEBUG_NUMBER = 0;
 
     int currentPos = 0;
     while (true) {
@@ -353,22 +351,7 @@ void MagiumDecoder::showAchievement(std::string text) {
 
 void MagiumDecoder::processAndStoreFile(std::string filename) {
     std::string filepath = c_magiumFormatFilepath + filename;
-    SDL_IOStream *iostream = SDL_IOFromFile(filepath.c_str(), "r");
-    std::string fileContents = readFileSDLIOStream(iostream);
-    SDL_CloseIO(iostream);
-
-    for (std::string s : c_fileNames) {
-        SDL_IOStream *io = SDL_IOFromFile((c_magiumFormatFilepath + s + c_fileExtension).c_str(), "r");
-        std::string fc = readFileSDLIOStream(io);
-        SDL_CloseIO(io);
-
-        // int pos = fc.find("special:");
-        // while (pos != fc.npos) {
-        //     if (fc.find("achievement", pos) < fc.find(")", pos))
-        //         SDL_Log("ACHIEVEMENT: %s", fc.substr(pos, fc.find(")", pos) - pos).c_str());
-        //     pos = fc.find("special:", pos + 8);
-        // }
-    }
+    std::string fileContents = readfile(filepath);
 
     std::vector<std::string> scenes = separateFiles(fileContents);
 
@@ -417,8 +400,8 @@ void MagiumDecoder::applyChoice(Choice choice) {
         m_data.addVarVal(v);
 
     int availablePointsAfter = std::stoi(m_data.getVal(c_availablePointsVariable));
-	if (availablePointsBefore != availablePointsAfter)
-	    *m_pAvailablePoints += availablePointsAfter - availablePointsBefore;
+    if (availablePointsBefore != availablePointsAfter)
+        *m_pAvailablePoints += availablePointsAfter - availablePointsBefore;
 
     if (choice.special.find(c_specialCheckpointSave) != choice.special.npos) {
         m_data.incrementChapterNumber();
@@ -445,25 +428,40 @@ void MagiumDecoder::applyChoice(Choice choice) {
     }
 
     if (choice.special.find(c_specialRestart) != choice.special.npos) {
+        m_data = {};
+		processAndStoreFile(c_fileNames[m_data.fileIndex()] + c_fileExtension);
+        if (m_data.bookNumber() == 1) {
+            m_chapterCounterText->changeText("Chapter " + std::to_string(m_data.chapterNumber()));
+        } else {
+            m_chapterCounterText->changeText("Book " + std::to_string(m_data.bookNumber()) + " -Chapter " +
+                                             std::to_string(m_data.chapterNumber()));
+        }
     }
 
     if (choice.special.find(c_specialSaves) != choice.special.npos) {
     }
 
-    MagiumScene scene;
-    for (MagiumScene &ms : m_currentChapter)
-        if (ms.id == m_data.sceneId())
+    updateScene();
+
+    m_persister.addSlot(m_data.slot());
+    m_persister.updateAchievements(m_data.achievements());
+    m_persister.save();
+}
+
+void MagiumDecoder::updateScene() {
+    MagiumScene scene = {};
+    for (MagiumScene &ms : m_currentChapter) {
+        if (ms.id == m_data.sceneId()) {
             scene = ms;
+        }
+    }
     if (scene.texts.size() == 0) {
         m_data.incrementFileIndex();
         processAndStoreFile(c_fileNames[m_data.fileIndex()] + c_fileExtension);
         scene = m_currentChapter[0];
+        m_data.setSceneId(scene.id);
     }
 
-    updateScene(scene);
-}
-
-void MagiumDecoder::updateScene(MagiumScene scene) {
     evaluateSetCommands(scene.varSets);
 
     m_text->changeText(evaluateText(scene.texts));

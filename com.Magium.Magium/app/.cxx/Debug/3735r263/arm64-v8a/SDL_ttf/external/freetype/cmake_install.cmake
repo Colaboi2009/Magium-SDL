@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/SDL_ttf/external/freetype
+# Install script for directory: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/SDL_ttf/external/freetype
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GAME")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,33 +39,33 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-objdump.exe")
+  set(CMAKE_OBJDUMP "/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/freetype2" TYPE DIRECTORY FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/jni/SDL_ttf/external/freetype/include/" REGEX "/internal$" EXCLUDE REGEX "/ftconfig\\.h$" EXCLUDE REGEX "/ftoption\\.h$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/freetype2" TYPE DIRECTORY FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/SDL_ttf/external/freetype/include/" REGEX "/internal$" EXCLUDE REGEX "/ftconfig\\.h$" EXCLUDE REGEX "/ftoption\\.h$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/freetype2/freetype/config" TYPE FILE FILES
-    "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h"
-    "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/include/freetype/config/ftoption.h"
+    "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/include/freetype/config/ftconfig.h"
+    "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/include/freetype/config/ftoption.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpkgconfigx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/freetype2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/freetype2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/libfreetyped.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/libfreetyped.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype/freetype-config.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype/freetype-config.cmake"
-         "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config.cmake")
+         "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype/freetype-config-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -74,13 +74,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMP
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/CMakeFiles/Export/lib/cmake/freetype/freetype-config-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/freetype-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/freetype" TYPE FILE FILES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL_ttf/external/freetype/freetype-config-version.cmake")
 endif()
 

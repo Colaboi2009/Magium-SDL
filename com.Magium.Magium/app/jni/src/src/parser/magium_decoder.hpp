@@ -7,6 +7,7 @@
 #include "../ui/ui_scene.hpp"
 #include "magium_data.hpp"
 #include "magium_structs.hpp"
+#include "persister.hpp"
 
 namespace MagiumSDL {
 class MagiumDecoder {
@@ -18,13 +19,14 @@ class MagiumDecoder {
     bool m_clicked = false;
     Choice m_choiceTaken;
 
+	Persister m_persister;
     MagiumData m_data;
+
     std::vector<MagiumScene> m_currentChapter;
     std::vector<std::shared_ptr<MagiumStat>> m_uiStats;
     std::shared_ptr<int> m_pAvailablePoints;
 
   private:
-    std::string readFileSDLIOStream(SDL_IOStream *stream);
     std::vector<std::string> separateFiles(std::string &chapter);
 
     std::string findID(std::string &scene);
@@ -43,7 +45,7 @@ class MagiumDecoder {
     void showAchievement(std::string text);
 
     void applyChoice(Choice choice);
-    void updateScene(MagiumScene scene);
+    void updateScene();
 
     void processAndStoreFile(std::string filename);
 
@@ -54,7 +56,7 @@ class MagiumDecoder {
         m_uiStats = stats;
         m_pAvailablePoints = pavailablePoints;
     }
-    
-	void update();
+
+    void update();
 };
 } // namespace MagiumSDL

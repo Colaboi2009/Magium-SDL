@@ -2,7 +2,7 @@
 all: android
 
 android:
-	.\android.bat
+	./android.sh
 
 #used to compile for windows and linux.
 #incomplete, wont work yet!

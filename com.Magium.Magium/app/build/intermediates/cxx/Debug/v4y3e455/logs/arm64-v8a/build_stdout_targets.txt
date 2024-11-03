@@ -1,3 +1,0 @@
-ninja: Entering directory `C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\v4y3e455\arm64-v8a'
-[0/2] Re-checking globbed directories...
-ninja: no work to do.

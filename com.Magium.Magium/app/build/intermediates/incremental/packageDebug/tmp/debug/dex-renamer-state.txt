@@ -1,4 +1,4 @@
-#Sun Oct 13 20:26:10 GST 2024
-base.0=C\:\\Users\\alaam\\Desktop\\C++ProjectsVSC\\Magium\\Magium-SDL\\com.Magium.Magium\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sun Nov 03 19:43:23 GST 2024
+base.0=/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

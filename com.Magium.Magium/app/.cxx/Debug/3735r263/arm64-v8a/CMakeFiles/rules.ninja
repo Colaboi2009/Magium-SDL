@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__SDL3-shared_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -35,7 +35,7 @@ rule C_COMPILER__SDL3-shared_Debug
 rule CXX_COMPILER__SDL3-shared_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -43,10 +43,8 @@ rule CXX_COMPILER__SDL3-shared_Debug
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__SDL3-shared_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE @$RSP_FILE  && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
-  rspfile = $RSP_FILE
-  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -56,7 +54,7 @@ rule CXX_SHARED_LIBRARY_LINKER__SDL3-shared_Debug
 rule C_COMPILER__SDL3_test_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -64,7 +62,7 @@ rule C_COMPILER__SDL3_test_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__SDL3_test_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake -E rm -f $TARGET_FILE && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -75,7 +73,7 @@ rule C_STATIC_LIBRARY_LINKER__SDL3_test_Debug
 rule C_COMPILER__SDL_uclibc_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -83,7 +81,7 @@ rule C_COMPILER__SDL_uclibc_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__SDL_uclibc_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake -E rm -f $TARGET_FILE && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -94,7 +92,7 @@ rule C_STATIC_LIBRARY_LINKER__SDL_uclibc_Debug
 rule C_COMPILER__SDL3_image-shared_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -102,7 +100,7 @@ rule C_COMPILER__SDL3_image-shared_Debug
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__SDL3_image-shared_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -113,7 +111,7 @@ rule C_SHARED_LIBRARY_LINKER__SDL3_image-shared_Debug
 rule C_COMPILER__SDL3_ttf-shared_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -121,7 +119,7 @@ rule C_COMPILER__SDL3_ttf-shared_Debug
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__SDL3_ttf-shared_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -132,7 +130,7 @@ rule C_SHARED_LIBRARY_LINKER__SDL3_ttf-shared_Debug
 rule C_COMPILER__freetype_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -140,7 +138,7 @@ rule C_COMPILER__freetype_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__freetype_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -E rm -f $TARGET_FILE && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake -E rm -f $TARGET_FILE && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -151,7 +149,7 @@ rule C_STATIC_LIBRARY_LINKER__freetype_Debug
 rule CXX_COMPILER__main_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -159,7 +157,7 @@ rule CXX_COMPILER__main_Debug
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__main_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = $PRE_LINK && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -168,7 +166,7 @@ rule CXX_SHARED_LIBRARY_LINKER__main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\jni -BC:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a
+  command = /home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni -B/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a
   description = Re-running CMake...
   generator = 1
 
@@ -177,7 +175,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe -P C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\.cxx\Debug\3735r263\arm64-v8a\CMakeFiles\VerifyGlobs.cmake
+  command = /home/alaam/Android/Sdk/cmake/3.22.1/bin/cmake -P /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
@@ -186,7 +184,7 @@ rule VERIFY_GLOBS
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = /home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -194,6 +192,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -t targets
+  command = /home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja -t targets
   description = All primary targets available:
 

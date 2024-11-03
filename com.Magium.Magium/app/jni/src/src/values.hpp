@@ -6,19 +6,26 @@
 namespace {
 
 // Positions and sizes
+// Game
 float STORY_TEXT_SIZE{.7f};
 float STORY_BUTTON_WIDTH{.875f};
 float STORY_BUTTON_HEIGHT{.055f};
 float STORY_BUTTON_SPACING{.08f};
 float STORY_BUTTON_BOTTOM_PADDING{.1f};
 
-SDL_FRect RECT_ACHIEVEMENT_BOX{0.09f, 0.1f, 1.5f}; // w = scale
-SDL_FRect RECT_ACHIEVEMENT_TROPHY{0.14f, 0.1125f, 1.5f}; // w = scale
+SDL_FRect RECT_ACHIEVEMENT_BOX{0.09f, 0.1f, 1.5f};         // w = scale
+SDL_FRect RECT_ACHIEVEMENT_TROPHY{0.14f, 0.1125f, 1.5f};   // w = scale
 SDL_FRect RECT_ACHIEVEMENT_TEXT{0.33f, 0.13f, 0.2f, .82f}; // w = wrapping length, h = font size
 
 float STATS_TEXT_SIZE{.72f};
 
-// TODO(Ala): positions
+// Main menu
+const float MAIN_MENU_BUTTON_WIDTH = .8f;
+const float MAIN_MENU_BUTTON_HEIGHT = .05f;
+const float MAIN_MENU_BUTTON_DISTANCE = 0.06f;
+const float MAIN_MENU_BUTTON_PADDING = 0.05f;
+
+// TODO(Ala): stat positions
 const SDL_FRect RECT_strength{.275f, .25f};
 const SDL_FRect RECT_speed{.8f, .25f};
 const SDL_FRect RECT_toughness{.275f, .35f};

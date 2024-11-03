@@ -4,7 +4,7 @@
             "outputFile": "com.Magium.Magium.app-mergeDebugResources-9:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alaam\\.gradle\\caches\\transforms-3\\1324fbc4a68870a8447bec87246f9aa1\\transformed\\appcompat-1.3.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "/home/alaam/.gradle/caches/transforms-3/1324fbc4a68870a8447bec87246f9aa1/transformed/appcompat-1.3.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

@@ -1,17 +1,17 @@
 Determining if the __GLIBC__ exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_e16b4 && [1/2] Building C object CMakeFiles/cmTC_e16b4.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_e16b4.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_e16b4.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_e16b4.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e16b4.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
-  return ((int*)(&__GLIBC__))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_3441b && [1/2] Building C object CMakeFiles/cmTC_3441b.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_3441b.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_3441b.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3441b.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3441b.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -26,23 +26,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the fopen64 exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_526de && [1/2] Building C object CMakeFiles/cmTC_526de.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_526de.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_526de.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_526de.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_526de.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
-  return ((int*)(&fopen64))[argc];
-                  ^~~~~~~
-                  fopen
-C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/stdio.h:280:7: note: 'fopen' declared here
-FILE* fopen(const char* __path, const char* __mode);
-      ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_3047b && [1/2] Building C object CMakeFiles/cmTC_3047b.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_3047b.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_3047b.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3047b.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3047b.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+  return ((int*)(&fopen64))[argc];
+                  ^~~~~~~
+                  fopen
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h:280:7: note: 'fopen' declared here
+FILE* fopen(const char* __path, const char* __mode);
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -75,23 +75,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the fseeko64 exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6b94d && [1/2] Building C object CMakeFiles/cmTC_6b94d.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_6b94d.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_6b94d.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_6b94d.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6b94d.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
-  return ((int*)(&fseeko64))[argc];
-                  ^~~~~~~~
-                  fseeko
-C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/stdio.h:250:5: note: 'fseeko' declared here
-int fseeko(FILE* __fp, off_t __offset, int __whence);
-    ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_111a4 && [1/2] Building C object CMakeFiles/cmTC_111a4.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_111a4.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_111a4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_111a4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_111a4.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+  return ((int*)(&fseeko64))[argc];
+                  ^~~~~~~~
+                  fseeko
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h:250:5: note: 'fseeko' declared here
+int fseeko(FILE* __fp, off_t __offset, int __whence);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -124,19 +124,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the _i64toa exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9a5a2 && [1/2] Building C object CMakeFiles/cmTC_9a5a2.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_9a5a2.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_9a5a2.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_9a5a2.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9a5a2.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier '_i64toa'
-  return ((int*)(&_i64toa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_4d766 && [1/2] Building C object CMakeFiles/cmTC_4d766.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4d766.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_4d766.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4d766.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4d766.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier '_i64toa'
+  return ((int*)(&_i64toa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -169,27 +169,27 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the index exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_69311 && [1/2] Building C object CMakeFiles/cmTC_69311.dir/CheckSymbolExists.c.o
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: warning: implicitly declaring library function 'index' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
-  return ((int*)(&index))[argc];
-                  ^
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: include the header <strings.h> or explicitly provide a declaration for 'index'
-1 warning generated.
-[2/2] Linking C executable cmTC_69311
-FAILED: cmTC_69311 
-cmd.exe /C "cd . && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_69311.dir/CheckSymbolExists.c.o -o cmTC_69311  -lm  -latomic -lm && cd ."
-ld: error: undefined symbol: index
->>> referenced by CheckSymbolExists.c:0
->>>               CMakeFiles/cmTC_69311.dir/CheckSymbolExists.c.o:(main)
->>> referenced by CheckSymbolExists.c:0
->>>               CMakeFiles/cmTC_69311.dir/CheckSymbolExists.c.o:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_47731 && [1/2] Building C object CMakeFiles/cmTC_47731.dir/CheckSymbolExists.c.o
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: warning: implicitly declaring library function 'index' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&index))[argc];
+                  ^
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: include the header <strings.h> or explicitly provide a declaration for 'index'
+1 warning generated.
+[2/2] Linking C executable cmTC_47731
+FAILED: cmTC_47731 
+: && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_47731.dir/CheckSymbolExists.c.o -o cmTC_47731  -lm  -latomic -lm && :
+ld: error: undefined symbol: index
+>>> referenced by CheckSymbolExists.c:0
+>>>               CMakeFiles/cmTC_47731.dir/CheckSymbolExists.c.o:(main)
+>>> referenced by CheckSymbolExists.c:0
+>>>               CMakeFiles/cmTC_47731.dir/CheckSymbolExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -222,19 +222,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the itoa exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_70e69 && [1/2] Building C object CMakeFiles/cmTC_70e69.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_70e69.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_70e69.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_70e69.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_70e69.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'itoa'
-  return ((int*)(&itoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_660b3 && [1/2] Building C object CMakeFiles/cmTC_660b3.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_660b3.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_660b3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_660b3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_660b3.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'itoa'
+  return ((int*)(&itoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -267,19 +267,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the _ltoa exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_03558 && [1/2] Building C object CMakeFiles/cmTC_03558.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_03558.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_03558.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_03558.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_03558.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier '_ltoa'
-  return ((int*)(&_ltoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_5e04a && [1/2] Building C object CMakeFiles/cmTC_5e04a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_5e04a.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_5e04a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5e04a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5e04a.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier '_ltoa'
+  return ((int*)(&_ltoa))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -312,27 +312,27 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the rindex exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_aa939 && [1/2] Building C object CMakeFiles/cmTC_aa939.dir/CheckSymbolExists.c.o
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: warning: implicitly declaring library function 'rindex' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
-  return ((int*)(&rindex))[argc];
-                  ^
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: include the header <strings.h> or explicitly provide a declaration for 'rindex'
-1 warning generated.
-[2/2] Linking C executable cmTC_aa939
-FAILED: cmTC_aa939 
-cmd.exe /C "cd . && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_aa939.dir/CheckSymbolExists.c.o -o cmTC_aa939  -lm  -latomic -lm && cd ."
-ld: error: undefined symbol: rindex
->>> referenced by CheckSymbolExists.c:0
->>>               CMakeFiles/cmTC_aa939.dir/CheckSymbolExists.c.o:(main)
->>> referenced by CheckSymbolExists.c:0
->>>               CMakeFiles/cmTC_aa939.dir/CheckSymbolExists.c.o:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_03775 && [1/2] Building C object CMakeFiles/cmTC_03775.dir/CheckSymbolExists.c.o
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: warning: implicitly declaring library function 'rindex' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+  return ((int*)(&rindex))[argc];
+                  ^
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: include the header <strings.h> or explicitly provide a declaration for 'rindex'
+1 warning generated.
+[2/2] Linking C executable cmTC_03775
+FAILED: cmTC_03775 
+: && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_03775.dir/CheckSymbolExists.c.o -o cmTC_03775  -lm  -latomic -lm && :
+ld: error: undefined symbol: rindex
+>>> referenced by CheckSymbolExists.c:0
+>>>               CMakeFiles/cmTC_03775.dir/CheckSymbolExists.c.o:(main)
+>>> referenced by CheckSymbolExists.c:0
+>>>               CMakeFiles/cmTC_03775.dir/CheckSymbolExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -365,23 +365,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the sqr exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a3423 && [1/2] Building C object CMakeFiles/cmTC_a3423.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_a3423.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_a3423.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_a3423.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a3423.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'sqr'; did you mean 'sqrt'?
-  return ((int*)(&sqr))[argc];
-                  ^~~
-                  sqrt
-C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/math.h:205:8: note: 'sqrt' declared here
-double sqrt(double __x);
-       ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_47a64 && [1/2] Building C object CMakeFiles/cmTC_47a64.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_47a64.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_47a64.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_47a64.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_47a64.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'sqr'; did you mean 'sqrt'?
+  return ((int*)(&sqr))[argc];
+                  ^~~
+                  sqrt
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/math.h:205:8: note: 'sqrt' declared here
+double sqrt(double __x);
+       ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -414,23 +414,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strnstr exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b2e55 && [1/2] Building C object CMakeFiles/cmTC_b2e55.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_b2e55.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_b2e55.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_b2e55.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b2e55.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'strnstr'; did you mean 'strstr'?
-  return ((int*)(&strnstr))[argc];
-                  ^~~~~~~
-                  strstr
-C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/string.h:112:7: note: 'strstr' declared here
-char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
-      ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_f9700 && [1/2] Building C object CMakeFiles/cmTC_f9700.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f9700.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_f9700.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f9700.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f9700.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: use of undeclared identifier 'strnstr'; did you mean 'strstr'?
+  return ((int*)(&strnstr))[argc];
+                  ^~~~~~~
+                  strstr
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h:112:7: note: 'strstr' declared here
+char* strstr(const char* __haystack, const char* __needle) __attribute_pure__;
+      ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <float.h>
 #include <iconv.h>
@@ -463,20 +463,20 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test LIBC_HAS_ISINFF failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_46729 && [1/2] Building C object CMakeFiles/cmTC_46729.dir/src.c.o
-FAILED: CMakeFiles/cmTC_46729.dir/src.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLIBC_HAS_ISINFF  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -fPIE -MD -MT CMakeFiles/cmTC_46729.dir/src.c.o -MF CMakeFiles\cmTC_46729.dir\src.c.o.d -o CMakeFiles/cmTC_46729.dir/src.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:16: error: implicit declaration of function 'isinff' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
-        return isinff(f);
-               ^
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:16: note: did you mean 'isinf'?
-C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/math.h:329:6: note: 'isinf' declared here
-int (isinf)(double __x) __attribute_const__ __INTRODUCED_IN(21);
-     ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_a63ba && [1/2] Building C object CMakeFiles/cmTC_a63ba.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a63ba.dir/src.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DLIBC_HAS_ISINFF  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -fPIE -MD -MT CMakeFiles/cmTC_a63ba.dir/src.c.o -MF CMakeFiles/cmTC_a63ba.dir/src.c.o.d -o CMakeFiles/cmTC_a63ba.dir/src.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:16: error: implicit declaration of function 'isinff' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        return isinff(f);
+               ^
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:16: note: did you mean 'isinf'?
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/math.h:329:6: note: 'isinf' declared here
+int (isinf)(double __x) __attribute_const__ __INTRODUCED_IN(21);
+     ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -488,19 +488,19 @@ Source file was:
       }
     
 Determining if the nl_langinfo exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3f965 && [1/2] Building C object CMakeFiles/cmTC_3f965.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_3f965.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_3f965.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_3f965.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3f965.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'nl_langinfo'
-  return ((int*)(&nl_langinfo))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_0a962 && [1/2] Building C object CMakeFiles/cmTC_0a962.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_0a962.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_0a962.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0a962.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0a962.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'nl_langinfo'
+  return ((int*)(&nl_langinfo))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <langinfo.h>
 
@@ -515,19 +515,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the sysctlbyname exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_af296 && [1/2] Building C object CMakeFiles/cmTC_af296.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_af296.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_af296.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_af296.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_af296.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: 'sys/sysctl.h' file not found
-#include <sys/sysctl.h>
-         ^~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_f6242 && [1/2] Building C object CMakeFiles/cmTC_f6242.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f6242.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_f6242.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f6242.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f6242.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: 'sys/sysctl.h' file not found
+#include <sys/sysctl.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/types.h>
 #include <sys/sysctl.h>
@@ -543,19 +543,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the elf_aux_info exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_438aa && [1/2] Building C object CMakeFiles/cmTC_438aa.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_438aa.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_438aa.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_438aa.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_438aa.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'elf_aux_info'
-  return ((int*)(&elf_aux_info))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_9ad08 && [1/2] Building C object CMakeFiles/cmTC_9ad08.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9ad08.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_9ad08.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9ad08.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9ad08.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'elf_aux_info'
+  return ((int*)(&elf_aux_info))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/auxv.h>
 
@@ -570,19 +570,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the memfd_create exist failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_e1042 && [1/2] Building C object CMakeFiles/cmTC_e1042.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_e1042.dir/CheckSymbolExists.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_e1042.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_e1042.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e1042.dir/CheckSymbolExists.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'memfd_create'
-  return ((int*)(&memfd_create))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_66033 && [1/2] Building C object CMakeFiles/cmTC_66033.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_66033.dir/CheckSymbolExists.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_66033.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_66033.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_66033.dir/CheckSymbolExists.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'memfd_create'
+  return ((int*)(&memfd_create))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
-File C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/mman.h>
 
@@ -597,21 +597,21 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test ICONV_IN_LIBC failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_14882 && [1/2] Building C object CMakeFiles/cmTC_14882.dir/src.c.o
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:21: warning: implicit declaration of function 'iconv_open' is invalid in C99 [-Wimplicit-function-declaration]
-            return !iconv_open(NULL,NULL);
-                    ^
-1 warning generated.
-[2/2] Linking C executable cmTC_14882
-FAILED: cmTC_14882 
-cmd.exe /C "cd . && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_14882.dir/src.c.o -o cmTC_14882  -latomic -lm && cd ."
-ld: error: undefined symbol: iconv_open
->>> referenced by src.c:6
->>>               CMakeFiles/cmTC_14882.dir/src.c.o:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_d55c4 && [1/2] Building C object CMakeFiles/cmTC_d55c4.dir/src.c.o
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:21: warning: implicit declaration of function 'iconv_open' is invalid in C99 [-Wimplicit-function-declaration]
+            return !iconv_open(NULL,NULL);
+                    ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d55c4
+FAILED: cmTC_d55c4 
+: && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_d55c4.dir/src.c.o -o cmTC_d55c4  -latomic -lm && :
+ld: error: undefined symbol: iconv_open
+>>> referenced by src.c:6
+>>>               CMakeFiles/cmTC_d55c4.dir/src.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -623,19 +623,19 @@ Source file was:
             return !iconv_open(NULL,NULL);
         }
 Performing C SOURCE FILE Test ICONV_IN_LIBICONV failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_d9af1 && [1/2] Building C object CMakeFiles/cmTC_d9af1.dir/src.c.o
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:21: warning: implicit declaration of function 'iconv_open' is invalid in C99 [-Wimplicit-function-declaration]
-            return !iconv_open(NULL,NULL);
-                    ^
-1 warning generated.
-[2/2] Linking C executable cmTC_d9af1
-FAILED: cmTC_d9af1 
-cmd.exe /C "cd . && C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_d9af1.dir/src.c.o -o cmTC_d9af1  -liconv  -latomic -lm && cd ."
-ld: error: unable to find library -liconv
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_56218 && [1/2] Building C object CMakeFiles/cmTC_56218.dir/src.c.o
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:5:21: warning: implicit declaration of function 'iconv_open' is invalid in C99 [-Wimplicit-function-declaration]
+            return !iconv_open(NULL,NULL);
+                    ^
+1 warning generated.
+[2/2] Linking C executable cmTC_56218
+FAILED: cmTC_56218 
+: && /home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_56218.dir/src.c.o -o cmTC_56218  -liconv  -latomic -lm && :
+ld: error: unable to find library -liconv
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -646,42 +646,42 @@ Source file was:
             return !iconv_open(NULL,NULL);
         }
 Performing C SOURCE FILE Test HAVE_ARM_MODE failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_756b8 && [1/2] Building C object CMakeFiles/cmTC_756b8.dir/src.c.o
-FAILED: CMakeFiles/cmTC_756b8.dir/src.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_ARM_MODE  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -Werror=unused-command-line-argument -fPIE   -marm -MD -MT CMakeFiles/cmTC_756b8.dir/src.c.o -MF CMakeFiles\cmTC_756b8.dir\src.c.o.d -o CMakeFiles/cmTC_756b8.dir/src.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
-clang: error: argument unused during compilation: '-marm' [-Werror,-Wunused-command-line-argument]
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_b3c2c && [1/2] Building C object CMakeFiles/cmTC_b3c2c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b3c2c.dir/src.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_ARM_MODE  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -Werror=unused-command-line-argument -fPIE   -marm -MD -MT CMakeFiles/cmTC_b3c2c.dir/src.c.o -MF CMakeFiles/cmTC_b3c2c.dir/src.c.o.d -o CMakeFiles/cmTC_b3c2c.dir/src.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
+clang: error: argument unused during compilation: '-marm' [-Werror,-Wunused-command-line-argument]
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
 int main(void) { return 0; }
 Determining if the include file pthread_np.h exists failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a2b67 && [1/2] Building C object CMakeFiles/cmTC_a2b67.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_a2b67.dir/CheckIncludeFile.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_a2b67.dir/CheckIncludeFile.c.o -MF CMakeFiles\cmTC_a2b67.dir\CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a2b67.dir/CheckIncludeFile.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'pthread_np.h' file not found
-#include <pthread_np.h>
-         ^~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_2d085 && [1/2] Building C object CMakeFiles/cmTC_2d085.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_2d085.dir/CheckIncludeFile.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -fPIE -MD -MT CMakeFiles/cmTC_2d085.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2d085.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2d085.dir/CheckIncludeFile.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_4729b && [1/2] Building C object CMakeFiles/cmTC_4729b.dir/src.c.o
-FAILED: CMakeFiles/cmTC_4729b.dir/src.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCHECK_CPU_ARCHITECTURE_X64  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4729b.dir/src.c.o -MF CMakeFiles\cmTC_4729b.dir\src.c.o.d -o CMakeFiles/cmTC_4729b.dir/src.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_8a4b3 && [1/2] Building C object CMakeFiles/cmTC_8a4b3.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8a4b3.dir/src.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCHECK_CPU_ARCHITECTURE_X64  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_8a4b3.dir/src.c.o -MF CMakeFiles/cmTC_8a4b3.dir/src.c.o.d -o CMakeFiles/cmTC_8a4b3.dir/src.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:3: error: use of undeclared identifier 'choke'
+  choke
+  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -695,16 +695,16 @@ int main(int argc, char *argv[]) {
 }
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
-Change Dir: C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:\Users\alaam\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_194a0 && [1/2] Building C object CMakeFiles/cmTC_194a0.dir/src.c.o
-FAILED: CMakeFiles/cmTC_194a0.dir/src.c.o 
-C:\Users\alaam\AppData\Local\Android\Sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/alaam/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCHECK_CPU_ARCHITECTURE_X86  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_194a0.dir/src.c.o -MF CMakeFiles\cmTC_194a0.dir\src.c.o.d -o CMakeFiles/cmTC_194a0.dir/src.c.o -c C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
-C:/Users/alaam/Desktop/C++ProjectsVSC/Magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):/home/alaam/Android/Sdk/cmake/3.22.1/bin/ninja cmTC_70420 && [1/2] Building C object CMakeFiles/cmTC_70420.dir/src.c.o
+FAILED: CMakeFiles/cmTC_70420.dir/src.c.o 
+/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/alaam/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCHECK_CPU_ARCHITECTURE_X86  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_70420.dir/src.c.o -MF CMakeFiles/cmTC_70420.dir/src.c.o.d -o CMakeFiles/cmTC_70420.dir/src.c.o -c /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c
+/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/CMakeFiles/CMakeTmp/src.c:6:3: error: use of undeclared identifier 'choke'
+  choke
+  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
 
 
 Source file was:

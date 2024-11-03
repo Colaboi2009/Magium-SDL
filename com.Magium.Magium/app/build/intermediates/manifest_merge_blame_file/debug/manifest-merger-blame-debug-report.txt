@@ -15,44 +15,44 @@
 15
 16    <!-- OpenGL ES 2.0 -->
 17    <uses-feature android:glEsVersion="0x00020000" />
-17-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:11:5-54
-17-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:11:19-51
+17-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:5-54
+17-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:19-51
 18
 19    <!-- Touchscreen support -->
 20    <uses-feature
-20-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:14:5-16:36
+20-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:14:5-16:36
 21        android:name="android.hardware.touchscreen"
-21-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:15:9-52
+21-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:15:9-52
 22        android:required="false" />
-22-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:16:9-33
+22-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:16:9-33
 23
 24    <!-- Game controller support -->
 25    <uses-feature
-25-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:19:5-21:36
+25-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:19:5-21:36
 26        android:name="android.hardware.bluetooth"
-26-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:20:9-50
+26-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:20:9-50
 27        android:required="false" />
-27-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:21:9-33
+27-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:21:9-33
 28    <uses-feature
-28-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:22:5-24:36
+28-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:22:5-24:36
 29        android:name="android.hardware.gamepad"
-29-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:23:9-48
+29-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:23:9-48
 30        android:required="false" />
-30-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:24:9-33
+30-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:24:9-33
 31    <uses-feature
-31-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:25:5-27:36
+31-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:25:5-27:36
 32        android:name="android.hardware.usb.host"
-32-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:26:9-49
+32-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:26:9-49
 33        android:required="false" />
-33-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:27:9-33
+33-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:27:9-33
 34
 35    <!-- External mouse input events -->
 36    <uses-feature
-36-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:30:5-32:36
+36-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:30:5-32:36
 37        android:name="android.hardware.type.pc"
-37-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:31:9-48
+37-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:31:9-48
 38        android:required="false" />
-38-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:32:9-33
+38-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:32:9-33
 39
 40    <!-- Audio recording support -->
 41    <!-- if you want to record audio, uncomment this. -->
@@ -83,8 +83,8 @@
 66
 67    <!-- Allow access to the vibrator -->
 68    <uses-permission android:name="android.permission.VIBRATE" />
-68-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:56:5-66
-68-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:56:22-63
+68-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:5-66
+68-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:22-63
 69
 70    <!-- if you want to record audio, uncomment this. -->
 71    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
@@ -98,21 +98,21 @@
 79         An example Java class can be found in README-android.md
 80    -->
 81    <application
-81-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:69:5-104:19
+81-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:5-104:19
 82        android:allowBackup="true"
-82-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:71:9-35
+82-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:71:9-35
 83        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-83-->[androidx.core:core:1.5.0] C:\Users\alaam\.gradle\caches\transforms-3\920de6b7763f10ca921e3b5e424ad9c7\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+83-->[androidx.core:core:1.5.0] /home/alaam/.gradle/caches/transforms-3/920de6b7763f10ca921e3b5e424ad9c7/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 84        android:debuggable="true"
 85        android:extractNativeLibs="true"
 86        android:hardwareAccelerated="true"
-86-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:73:9-43
+86-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:73:9-43
 87        android:icon="@mipmap/ic_launcher"
-87-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:70:9-43
+87-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:70:9-43
 88        android:label="@string/app_name"
-88-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:69:18-50
+88-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:18-50
 89        android:theme="@style/AppTheme" >
-89-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:72:9-40
+89-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:72:9-40
 90
 91        <!--
 92        Example of setting SDL hints from AndroidManifest.xml:
@@ -120,37 +120,37 @@
 94        -->
 95
 96        <activity
-96-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:79:9-103:20
+96-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:9-103:20
 97            android:name="com.Magium.Magium.MagiumActivity"
-97-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:79:19-48
+97-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:19-48
 98            android:alwaysRetainTaskState="true"
-98-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:81:13-49
+98-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:81:13-49
 99            android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
-99-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:83:13-156
+99-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:83:13-156
 100            android:exported="true"
-100-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:85:13-36
+100-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:85:13-36
 101            android:label="@string/app_name"
-101-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:80:13-45
+101-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:80:13-45
 102            android:launchMode="singleInstance"
-102-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:82:13-48
+102-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:82:13-48
 103            android:preferMinimalPostProcessing="true" >
-103-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:84:13-55
+103-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:84:13-55
 104            <intent-filter>
-104-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:87:13-90:29
+104-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:87:13-90:29
 105                <action android:name="android.intent.action.MAIN" />
-105-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:88:17-69
-105-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:88:25-66
+105-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:17-69
+105-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:25-66
 106
 107                <category android:name="android.intent.category.LAUNCHER" />
-107-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:89:17-77
-107-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:89:27-74
+107-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:17-77
+107-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:27-74
 108            </intent-filter>
 109            <!-- Let Android know that we can handle some USB devices and should receive this event -->
 110            <intent-filter>
-110-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:92:13-94:29
+110-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:92:13-94:29
 111                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-111-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:93:17-90
-111-->C:\Users\alaam\Desktop\C++ProjectsVSC\Magium\Magium-SDL\com.Magium.Magium\app\src\main\AndroidManifest.xml:93:25-87
+111-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:17-90
+111-->/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:25-87
 112            </intent-filter>
 113            <!-- Drop file event -->
 114            <!--
