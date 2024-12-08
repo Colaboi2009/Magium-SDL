@@ -1,4 +1,5 @@
-ninja: Entering directory `/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a'
+ninja: Entering directory `/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a'
 [0/2] Re-checking globbed directories...
-[1/2] Building CXX object src/CMakeFiles/main.dir/src/parser/persister.cpp.o
-[2/2] Linking CXX shared library /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a/libmain.so
+[1/3] Building CXX object src/CMakeFiles/main.dir/src/parser/data_view.cpp.o
+[2/3] Building CXX object src/CMakeFiles/main.dir/src/parser/magium_decoder.cpp.o
+[3/3] Linking CXX shared library /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a/libmain.so

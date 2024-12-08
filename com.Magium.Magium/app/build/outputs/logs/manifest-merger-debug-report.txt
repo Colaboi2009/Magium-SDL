@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:1-106:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/alaam/.gradle/caches/transforms-3/1324fbc4a68870a8447bec87246f9aa1/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/alaam/.gradle/caches/transforms-3/db35e9107947de903f05b1db960766b4/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/alaam/.gradle/caches/transforms-3/908ffa820e3113cd6923a319ac659fad/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
@@ -28,112 +28,112 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/alaam/.gradle/caches/t
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alaam/.gradle/caches/transforms-3/6a6c40ace0d4eea1370087020e387d3e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/alaam/.gradle/caches/transforms-3/13254692cb9a66200dab7a3732a9466c/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:7:5-30
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:7:5-30
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:11-69
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:5:11-69
 	android:versionCode
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:6:5-28
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:6:5-28
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 	android:installLocation
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:8:5-35
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:8:5-35
 uses-feature#0x00020000
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:5-54
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:5-54
 	android:glEsVersion
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:19-51
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:11:19-51
 uses-feature#android.hardware.touchscreen
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:14:5-16:36
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:16:9-33
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:15:9-52
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:15:9-52
 uses-feature#android.hardware.bluetooth
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:19:5-21:36
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:19:5-21:36
 	android:required
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:21:9-33
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:21:9-33
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:20:9-50
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:20:9-50
 uses-feature#android.hardware.gamepad
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:22:5-24:36
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:22:5-24:36
 	android:required
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:24:9-33
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:24:9-33
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:23:9-48
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:23:9-48
 uses-feature#android.hardware.usb.host
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:25:5-27:36
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:27:9-33
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:27:9-33
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:26:9-49
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:26:9-49
 uses-feature#android.hardware.type.pc
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:30:5-32:36
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:30:5-32:36
 	android:required
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:32:9-33
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:32:9-33
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:31:9-48
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:31:9-48
 uses-permission#android.permission.VIBRATE
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:5-66
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:5-66
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:22-63
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:56:22-63
 application
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:5-104:19
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:5-104:19
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:5-104:19
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:5-104:19
 MERGED from [androidx.core:core:1.5.0] /home/alaam/.gradle/caches/transforms-3/920de6b7763f10ca921e3b5e424ad9c7/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] /home/alaam/.gradle/caches/transforms-3/920de6b7763f10ca921e3b5e424ad9c7/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alaam/.gradle/caches/transforms-3/2dbc5100f1fe3fb559e0389c84889e2c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alaam/.gradle/caches/transforms-3/2dbc5100f1fe3fb559e0389c84889e2c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/alaam/.gradle/caches/transforms-3/920de6b7763f10ca921e3b5e424ad9c7/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:18-50
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:69:18-50
 	android:hardwareAccelerated
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:73:9-43
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:73:9-43
 	android:icon
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:70:9-43
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:70:9-43
 	android:allowBackup
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:71:9-35
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:71:9-35
 	android:theme
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:72:9-40
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:72:9-40
 activity#com.Magium.Magium.MagiumActivity
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:9-103:20
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:9-103:20
 	android:label
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:80:13-45
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:80:13-45
 	android:launchMode
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:82:13-48
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:82:13-48
 	android:exported
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:85:13-36
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:85:13-36
 	android:configChanges
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:83:13-156
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:83:13-156
 	android:alwaysRetainTaskState
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:81:13-49
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:81:13-49
 	android:preferMinimalPostProcessing
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:84:13-55
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:84:13-55
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:19-48
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:79:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:87:13-90:29
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:87:13-90:29
 action#android.intent.action.MAIN
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:17-69
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:17-69
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:25-66
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:88:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:17-77
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:17-77
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:27-74
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:89:27-74
 intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:92:13-94:29
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:92:13-94:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:17-90
+ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:17-90
 	android:name
-		ADDED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:25-87
+		ADDED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml:93:25-87
 uses-sdk
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
-INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/alaam/.gradle/caches/transforms-3/1324fbc4a68870a8447bec87246f9aa1/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /home/alaam/.gradle/caches/transforms-3/1324fbc4a68870a8447bec87246f9aa1/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/alaam/.gradle/caches/transforms-3/db35e9107947de903f05b1db960766b4/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
@@ -181,6 +181,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alaam/.gradle/cache
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/alaam/.gradle/caches/transforms-3/13254692cb9a66200dab7a3732a9466c/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/alaam/.gradle/caches/transforms-3/13254692cb9a66200dab7a3732a9466c/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/src/main/AndroidManifest.xml

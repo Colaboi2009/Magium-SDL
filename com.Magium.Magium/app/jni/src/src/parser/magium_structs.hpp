@@ -5,7 +5,7 @@
 #include <vector>
 
 namespace MagiumSDL {
-const std::string c_magiumFormatFilepath = "magium_format/"; // in the assets folder directory
+const std::string c_magiumFormatFilepath = "magium_format/"; // in the assets directory
 const std::string c_fileExtension = ".magium";
 
 const std::string c_specialAchievement = "achievement";
@@ -41,6 +41,22 @@ const std::unordered_map<std::string, int> c_statNameToStatVariableNameIndex = {
     {"Aura hardening", 11},
     {"Magical power", 12},
     {"Magical knowledge", 13},
+};
+const std::unordered_map<std::string, std::string> c_statVariableNameToStatName = {
+    {"v_strength", "Strength"},
+    {"v_toughness", "Toughness"},
+    {"v_agility", "Speed"},
+    {"v_reflexes", "Reflexes"},
+    {"v_hearing", "Hearing"},
+    {"v_perception", "Observation"},
+    {"v_ancient_languages", "Ancient languages"},
+    {"v_combat_technique", "Combat technique"},
+    {"v_premonition", "Premonition"},
+    {"v_bluff", "Bluff"},
+    {"v_magical_sense", "Magical sense"},
+    {"v_aura_hardening", "Aura hardening"},
+    {"v_magical_power", "Magical power"},
+    {"v_magical_knowledge", "Magical knowledge"},
 };
 
 const std::vector<std::string> c_fileNames = {
@@ -95,8 +111,8 @@ enum class BoolOP {
 };
 
 struct DataSlot {
-	std::string name;
-	std::vector<VarVal> variables;
+    std::string name;
+    std::vector<VarVal> variables;
     int bookIndex;
     int fileIndex;
     int chapterIndex;

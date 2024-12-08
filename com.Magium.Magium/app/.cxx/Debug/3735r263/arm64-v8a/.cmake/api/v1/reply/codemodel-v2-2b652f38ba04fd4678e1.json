@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "SDL",
+					"jsonFile" : "directory-SDL-Debug-07ade731508963360216.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "SDL",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "SDL_image",
+					"jsonFile" : "directory-SDL_image-Debug-e299266bc4b19ed06bb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SDL_image",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "SDL_ttf",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SDL_ttf-Debug-c4a4c5d505f698abf033.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SDL_ttf",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "SDL_ttf/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SDL_ttf.external.freetype-Debug-a4e4ac9b4dd1aea65640.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "SDL_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GAME"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL3_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "my_app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL3-shared-Debug-6395da16c4cd053ab9f1.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_image-shared::@5a11176e8da1d970966f",
+					"jsonFile" : "target-SDL3_image-shared-Debug-c076f856b020afe13c8d.json",
+					"name" : "SDL3_image-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL3_test-Debug-04bb890ce40e6ce83bc8.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL3_ttf-shared::@b80ba31c6455629d7a9d",
+					"jsonFile" : "target-SDL3_ttf-shared-Debug-d51177c595842ef37ecd.json",
+					"name" : "SDL3_ttf-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@e7c329919722962a2ad4",
+					"jsonFile" : "target-SDL_uclibc-Debug-f292b9f827364a77b9bb.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@8a7c27c9ba2264f03a1b",
+					"jsonFile" : "target-freetype-Debug-423aa8c28c9141399cfd.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-439f9062cc814192dfe4.json",
+					"name" : "main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@e7c329919722962a2ad4",
+					"jsonFile" : "target-uninstall-Debug-a03fe0f4c323aaf8e55f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a",
+		"source" : "/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

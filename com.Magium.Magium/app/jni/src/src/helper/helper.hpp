@@ -25,5 +25,8 @@ inline SDL_FRect swiths(SDL_FRect r) { return {r.x * g_width, r.y * g_height, r.
 
 // scale with screen
 inline SDL_FRect swiths(float x, float y, float w, float h) { return {x * g_width, y * g_height, w * g_width, h * g_height}; }
+
 } // namespace Helper
+inline bool operator==(const SDL_Color &l, const SDL_Color &r) { return l.r == r.r && l.g == r.g && l.b == r.b && l.a == r.a; }
+inline bool operator!=(const SDL_Color &l, const SDL_Color &r) { return !(l == r); }
 } // namespace MagiumSDL

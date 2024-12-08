@@ -5,11 +5,13 @@
 #include "../ui/magium_stat.hpp"
 #include "../ui/raw_text.hpp"
 #include "../ui/ui_scene.hpp"
-#include "magium_data.hpp"
+#include "data_view.hpp"
 #include "magium_structs.hpp"
+#include "parser.hpp"
 #include "persister.hpp"
 
 namespace MagiumSDL {
+// ftr: Decoder meaning Engine
 class MagiumDecoder {
   private:
     std::shared_ptr<UIScene> m_uiscene;
@@ -19,27 +21,12 @@ class MagiumDecoder {
     bool m_clicked = false;
     Choice m_choiceTaken;
 
-	Persister m_persister;
-    MagiumData m_data;
+    Persister m_persister;
+    DataView m_view;
+    Parser m_parser;
 
-    std::vector<MagiumScene> m_currentChapter;
     std::vector<std::shared_ptr<MagiumStat>> m_uiStats;
     std::shared_ptr<int> m_pAvailablePoints;
-
-  private:
-    std::vector<std::string> separateFiles(std::string &chapter);
-
-    std::string findID(std::string &scene);
-    std::string findText(std::string &scene);
-    std::string findChoices(std::string &scene);
-
-    std::vector<ConditionalText> parseText(std::string text, std::vector<VariableSet> &sets);
-    std::vector<Choice> parseChoices(std::string text);
-
-    std::string evaluateText(std::vector<ConditionalText> &texts);
-    void evaluateSetCommands(std::vector<VariableSet> &set);
-    std::vector<Choice> evaluateChoices(std::vector<Choice> &choices);
-    bool evaluateCondition(Condition condition);
 
     std::string parseAchievementSpecial(std::string special, std::string &text);
     void showAchievement(std::string text);
@@ -47,7 +34,10 @@ class MagiumDecoder {
     void applyChoice(Choice choice);
     void updateScene();
 
-    void processAndStoreFile(std::string filename);
+    // special cases
+  private:
+    int m_berserkPointsProxy;
+    void berserkMode(int maxStat);
 
   public:
     MagiumDecoder(std::shared_ptr<UIScene> scene, std::shared_ptr<RawText> text, std::shared_ptr<RawText> chapterCounterText);
@@ -57,6 +47,8 @@ class MagiumDecoder {
         m_pAvailablePoints = pavailablePoints;
     }
 
+    void restart();
+    void load(std::string name);
     void update();
 };
 } // namespace MagiumSDL

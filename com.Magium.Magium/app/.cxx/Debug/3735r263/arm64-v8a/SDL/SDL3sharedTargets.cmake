@@ -47,7 +47,7 @@ add_library(SDL3::SDL3-shared SHARED IMPORTED)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
   COMPATIBLE_INTERFACE_BOOL "SDL3_SHARED"
   COMPATIBLE_INTERFACE_STRING "SDL_VERSION"
-  INTERFACE_LINK_DEPENDS "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/SDL/src/dynapi/SDL_dynapi.sym"
+  INTERFACE_LINK_DEPENDS "/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/jni/SDL/src/dynapi/SDL_dynapi.sym"
   INTERFACE_LINK_LIBRARIES "SDL3::Headers"
   INTERFACE_SDL3_SHARED "TRUE"
   INTERFACE_SDL_VERSION "SDL3"
@@ -56,7 +56,7 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
 # Import target "SDL3::SDL3-shared" for configuration "Debug"
 set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a/libSDL3.so"
+  IMPORTED_LOCATION_DEBUG "/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/build/intermediates/cxx/Debug/3735r263/obj/arm64-v8a/libSDL3.so"
   IMPORTED_SONAME_DEBUG "libSDL3.so"
   )
 

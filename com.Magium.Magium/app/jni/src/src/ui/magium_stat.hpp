@@ -54,25 +54,36 @@ class MagiumStat : public UIElement {
 
     void confirmStatLevel() {
         m_currentLevel = m_temporaryLevel;
-        m_button->rawText()->setColor(COLOR_STATS_MENU_STATS_TEXT);
         formatName();
     }
 
     void cancelStatLevel() {
-		*m_pAvailablePoints += m_temporaryLevel - m_currentLevel;
+        *m_pAvailablePoints += m_temporaryLevel - m_currentLevel;
         m_temporaryLevel = m_currentLevel;
-        m_button->rawText()->setColor(COLOR_STATS_MENU_STATS_TEXT);
-        formatName();
     }
 
     void render() override {
         if (m_temporaryLevel != m_currentLevel) {
             m_button->rawText()->setColor(COLOR_STATS_MENU_STATS_TEXT_CHANGED);
             formatName();
+        } else if (m_button->rawText()->color() != COLOR_STATS_MENU_STATS_TEXT) {
+            m_button->rawText()->setColor(COLOR_STATS_MENU_STATS_TEXT);
+            formatName();
         }
         m_button->render();
     }
 
     void events(SDL_Event &e) override { m_button->events(e); }
+
+    // used for berserk
+
+    void addLevel(int level) {
+        m_temporaryLevel += level;
+        confirmStatLevel();
+    }
+    void decrementLevel() {
+        m_temporaryLevel--;
+        confirmStatLevel();
+    }
 };
 } // namespace MagiumSDL

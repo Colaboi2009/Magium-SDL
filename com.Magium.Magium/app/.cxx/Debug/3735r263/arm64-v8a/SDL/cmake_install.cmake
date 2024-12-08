@@ -1,4 +1,4 @@
-# Install script for directory: /home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/SDL
+# Install script for directory: /home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/jni/SDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

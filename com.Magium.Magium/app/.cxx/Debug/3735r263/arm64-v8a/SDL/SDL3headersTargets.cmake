@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(SDL3::Headers INTERFACE IMPORTED)
 
 set_target_properties(SDL3::Headers PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL/include;/home/alaam/cpp/Magium-SDL/com.Magium.Magium/app/jni/SDL/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/.cxx/Debug/3735r263/arm64-v8a/SDL/include;/home/alaam/cpp/magium/Magium-SDL/com.Magium.Magium/app/jni/SDL/include"
 )
 
 # This file does not depend on other imported targets which have

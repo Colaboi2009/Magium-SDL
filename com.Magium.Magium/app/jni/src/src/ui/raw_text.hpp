@@ -36,7 +36,9 @@ class RawText : public UIElement {
 
 	void setColor(SDL_Color c) { m_color = c; }
     void setFont(TTF_Font *font) { m_font = font; }
-	std::string getText() const { return m_text; }
+
+	SDL_Color color() const { return m_color; }
+	std::string text() const { return m_text; }
 
     void changeText(std::string newText) {
         m_text = newText;
